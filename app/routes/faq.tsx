@@ -1,6 +1,5 @@
-import { MetaFunction } from '@remix-run/react';
+import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
 import { useTranslation } from 'react-i18next';
-import { LoaderFunctionArgs } from 'react-router';
 import { MainLayout } from '~/components/layout/main-layout';
 import { AnimatedSection } from '~/components/ui/animated-section';
 import { BackgroundSlider } from '~/components/ui/background-slider';

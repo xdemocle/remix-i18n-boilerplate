@@ -1,4 +1,5 @@
 /.wrangler
+build/
 dist/
 .env
 .dev.vars
