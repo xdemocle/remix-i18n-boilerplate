@@ -42,7 +42,24 @@
   },
   "testimonialsSection": {
     "title": "What users say",
-    "subtitle": "Real feedback from real startups."
+    "subtitle": "Real feedback from real startups.",
+    "testimonials": [
+      {
+        "name": "Sophie Lee",
+        "business": "Sophie's Bakery",
+        "quote": "I launched my online shop in minutes—super easy and my customers love it!"
+      },
+      {
+        "name": "Carlos Diaz",
+        "business": "Diaz Street Food",
+        "quote": "Finally, a website builder that understands small business needs. Highly recommend!"
+      },
+      {
+        "name": "Marie Dubois",
+        "business": "Boutique Dubois",
+        "quote": "Fast, modern, and no tech headaches. My sales are up!"
+      }
+    ]
   },
   "demoSection": {
     "title": "Live Demo Store",

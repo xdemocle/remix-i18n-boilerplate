@@ -50,7 +50,24 @@
   },
   "testimonialsSection": {
     "title": "Lo que dicen los usuarios",
-    "subtitle": "Opiniones reales de startups reales."
+    "subtitle": "Opiniones reales de startups reales.",
+    "testimonials": [
+      {
+        "name": "Sophie Lee",
+        "business": "Panadería de Sophie",
+        "quote": "¡Abrí mi tienda online en minutos! Súper fácil y a mis clientes les encanta."
+      },
+      {
+        "name": "Carlos Díaz",
+        "business": "Comida Callejera Díaz",
+        "quote": "Por fin un creador de webs pensado para pequeños negocios. ¡Muy recomendable!"
+      },
+      {
+        "name": "Marie Dubois",
+        "business": "Boutique Dubois",
+        "quote": "Rápido, moderno y sin dolores de cabeza técnicos. ¡Mis ventas subieron!"
+      }
+    ]
   },
   "demoSection": {
     "title": "Tienda demo en vivo",
