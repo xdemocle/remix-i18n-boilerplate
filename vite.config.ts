@@ -2,19 +2,10 @@ import { cloudflareDevProxyVitePlugin, vitePlugin as remix } from '@remix-run/de
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
-import { type PlatformProxy } from 'wrangler';
 
-type GetLoadContextArgs = {
-  request: Request;
-  context: {
-    cloudflare: Omit<PlatformProxy<Env>, 'dispose' | 'caches' | 'cf'> & {
-      caches: PlatformProxy<Env>['caches'] | CacheStorage;
-      cf: Request['cf'];
-    };
-  };
-};
-
-export function getLoadContext({ context }: GetLoadContextArgs) {
+// Define a simple getLoadContext function that passes through the context
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function getLoadContext({ context }: { context: any }) {
   return context;
 }
 
