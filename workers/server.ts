@@ -1,7 +1,7 @@
 import { createRequestHandler, type ServerBuild } from '@remix-run/cloudflare';
 // @ts-expect-error build/server need to be built before
 // eslint-disable-next-line import/no-unresolved
-import * as build from './build/server';
+import * as build from '../build/server';
 import { getLoadContext } from './load-context';
 
 const handleRemixRequest = createRequestHandler(build as unknown as ServerBuild, 'development');
