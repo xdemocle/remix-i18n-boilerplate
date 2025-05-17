@@ -1,8 +1,22 @@
-import { defineConfig } from 'vite';
-import { vitePlugin as remix, cloudflareDevProxyVitePlugin } from '@remix-run/dev';
-import tsconfigPaths from 'vite-tsconfig-paths';
+import { cloudflareDevProxyVitePlugin, vitePlugin as remix } from '@remix-run/dev';
 import tailwindcss from '@tailwindcss/vite';
-import { getLoadContext } from './workers/load-context';
+import { defineConfig } from 'vite';
+import tsconfigPaths from 'vite-tsconfig-paths';
+import { type PlatformProxy } from 'wrangler';
+
+type GetLoadContextArgs = {
+  request: Request;
+  context: {
+    cloudflare: Omit<PlatformProxy<Env>, 'dispose' | 'caches' | 'cf'> & {
+      caches: PlatformProxy<Env>['caches'] | CacheStorage;
+      cf: Request['cf'];
+    };
+  };
+};
+
+export function getLoadContext({ context }: GetLoadContextArgs) {
+  return context;
+}
 
 export default defineConfig({
   ssr: {

@@ -1,7 +1,22 @@
+/* eslint-disable import/no-unresolved */
 import { createRequestHandler, type ServerBuild } from '@remix-run/cloudflare';
-// eslint-disable-next-line import/no-unresolved
+import { type PlatformProxy } from 'wrangler';
+// @ts-expect-error not existen yet
 import * as build from '../build/server';
-import { getLoadContext } from './load-context';
+
+type GetLoadContextArgs = {
+  request: Request;
+  context: {
+    cloudflare: Omit<PlatformProxy<Env>, 'dispose' | 'caches' | 'cf'> & {
+      caches: PlatformProxy<Env>['caches'] | CacheStorage;
+      cf: Request['cf'];
+    };
+  };
+};
+
+export function getLoadContext({ context }: GetLoadContextArgs) {
+  return context;
+}
 
 export default {
   async fetch(request, env, ctx) {
