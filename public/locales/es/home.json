@@ -37,6 +37,22 @@
     "title": "Ver tienda demo",
     "subtitle": "Mira cómo podría lucir tu tienda online en minutos."
   },
+  "featuresSection": {
+    "title": "Características",
+    "subtitle": "Todo lo que necesitas para lanzar y crecer rápido."
+  },
+  "ctaSection": {
+    "title": "¿Listo para comenzar?",
+    "subtitle": "Regístrate ahora y lanza tu proyecto en minutos."
+  },
+  "testimonialsSection": {
+    "title": "Lo que dicen los usuarios",
+    "subtitle": "Opiniones reales de startups reales."
+  },
+  "demoSection": {
+    "title": "Tienda demo en vivo",
+    "subtitle": "Mira una tienda real creada con remix-i18n-boilerplate."
+  },
   "benefits": {
     "title": "¿Por qué elegir remix-i18n-boilerplate?",
     "list": [

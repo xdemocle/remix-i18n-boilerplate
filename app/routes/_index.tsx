@@ -215,27 +215,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Demo Preview Section */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
-          <AnimatedSection className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('demoSection.title')}</h2>
-            <p className="text-neutral-600 max-w-2xl mx-auto text-lg">
-              {t('demoSection.subtitle')}
-            </p>
-          </AnimatedSection>
-
-          <div className="text-center mt-12">
-            <AnimatedSection delay={0.3}>
-              <p className="text-lg text-neutral-700 mb-6">{t('demoSection.tagline')}</p>
-              <Link to="/signup" className="btn-primary">
-                {t('demoSection.cta')}
-              </Link>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
       <section className="py-16 md:py-24 bg-neutral-50">
         <div className="container mx-auto px-4">

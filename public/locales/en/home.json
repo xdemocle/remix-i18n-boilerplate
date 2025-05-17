@@ -14,28 +14,36 @@
   "features": {
     "customerReach": {
       "title": "Grow Your Customer Reach",
-      "desc": "Expand your business online with a beautiful, responsive site."
+      "description": "Expand your business online with a beautiful, responsive site."
     },
-    "seoBoost": {
-      "title": "SEO & Social Ready",
-      "desc": "SEO-optimized and ready for social sharing out of the box."
+    "onlineSales": {
+      "title": "Boost Online Sales",
+      "description": "Sell products and services easily with our integrated platform."
     },
-    "templates": {
-      "title": "Beautiful Templates",
-      "desc": "Choose from modern, playful templates designed for small business."
-    },
-    "analytics": {
-      "title": "Analytics & Insights",
-      "desc": "Track your growth with built-in analytics tools."
-    },
-    "customDomain": {
-      "title": "Custom Domain Support",
-      "desc": "Use your own domain for a professional online presence."
+    "deviceFriendly": {
+      "title": "Device Friendly",
+      "description": "Your store looks great on any device, mobile or desktop."
     }
   },
   "demo": {
     "title": "Preview a Demo Store",
     "subtitle": "See what your online store could look like in minutes."
+  },
+  "featuresSection": {
+    "title": "Features",
+    "subtitle": "Everything you need to launch fast and grow."
+  },
+  "ctaSection": {
+    "title": "Ready to get started?",
+    "subtitle": "Sign up now and launch your project in minutes."
+  },
+  "testimonialsSection": {
+    "title": "What users say",
+    "subtitle": "Real feedback from real startups."
+  },
+  "demoSection": {
+    "title": "Live Demo Store",
+    "subtitle": "See a real store built with remix-i18n-boilerplate in action."
   },
   "benefits": {
     "title": "Why Choose remix-i18n-boilerplate?",
