@@ -1,23 +1,16 @@
 import { createRequestHandler, type ServerBuild } from '@remix-run/cloudflare';
 
-// We need to import the server build asynchronously to avoid global scope issues
-let serverBuild: ServerBuild | undefined;
-
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext) {
     try {
-      if (!serverBuild) {
-        // Load the server build on first request
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        // eslint-disable-next-line import/no-unresolved
-        const build = await import('../build/server/index.js');
-        serverBuild = build as unknown as ServerBuild;
-      }
-
+      // Load the server build on first request
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      // eslint-disable-next-line import/no-unresolved
+      const build = await import('../build/server/index.js');
       const handleRequest = createRequestHandler(
-        serverBuild,
-        process.env.NODE_ENV || 'development'
+        () => Promise.resolve(build as unknown as ServerBuild),
+        'development'
       );
 
       return await handleRequest(request, {
