@@ -1,8 +1,7 @@
 import type { InitOptions } from 'i18next';
 
 // Debug mode flag
-// export const debug = process.env.NODE_ENV === 'development';
-export const debug = true;
+export const debug = process.env.NODE_ENV === 'development';
 
 export const defaultNS = 'common' as const;
 export const fallbackLng = 'en' as const;
