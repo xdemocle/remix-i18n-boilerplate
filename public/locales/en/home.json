@@ -5,7 +5,9 @@
   },
   "hero": {
     "title": "Build your next project with Remix",
-    "subtitle": "A modern, production-ready Remix.js boilerplate for startups and makers."
+    "subtitle": "A modern, production-ready Remix.js boilerplate for startups and makers.",
+    "primaryCta": "Get Started",
+    "secondaryCta": "See Demo Store"
   },
   "cta": {
     "primary": "Get Started Free",

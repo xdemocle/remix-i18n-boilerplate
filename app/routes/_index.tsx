@@ -206,12 +206,6 @@ export default function Index() {
               />
             ))}
           </div>
-
-          <div className="text-center mt-12">
-            <Link to="/features" className="btn-secondary">
-              {t('featuresSection.viewAllFeatures')}
-            </Link>
-          </div>
         </div>
       </section>
 

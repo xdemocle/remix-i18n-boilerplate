@@ -5,7 +5,9 @@
   },
   "hero": {
     "title": "Construye tu próximo proyecto con Remix",
-    "subtitle": "Un boilerplate moderno y listo para producción con Remix.js para startups y creadores."
+    "subtitle": "Un boilerplate moderno y listo para producción con Remix.js para startups y creadores.",
+    "primaryCta": "Empezar",
+    "secondaryCta": "Ver tienda demo"
   },
   "cta": {
     "primary": "Comienza gratis",
