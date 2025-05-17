@@ -45,6 +45,48 @@
         }
       }
     },
+    "technical": {
+      "title": "Technical",
+      "questions": {
+        "1": {
+          "question": "What technologies does remix-i18n-boilerplate use?",
+          "answer": "We use Remix.js, React, TailwindCSS, and i18next for internationalization, providing a modern, fast, and scalable foundation."
+        },
+        "2": {
+          "question": "Can I customize the code?",
+          "answer": "Yes, the boilerplate is fully customizable. You have complete access to the source code and can modify it to suit your needs."
+        },
+        "3": {
+          "question": "Is it compatible with my existing database?",
+          "answer": "The boilerplate is designed to work with most modern databases and can be configured to connect to your existing data sources."
+        },
+        "4": {
+          "question": "How do I deploy my application?",
+          "answer": "You can deploy to Cloudflare Workers, Vercel, Netlify, or any other hosting platform that supports Remix applications."
+        }
+      }
+    },
+    "billing": {
+      "title": "Billing",
+      "questions": {
+        "1": {
+          "question": "Do you offer a free tier?",
+          "answer": "Yes, we offer a free tier with essential features to get you started. You can upgrade to premium plans for additional capabilities."
+        },
+        "2": {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major credit cards, PayPal, and bank transfers for business accounts."
+        },
+        "3": {
+          "question": "Can I change plans later?",
+          "answer": "Yes, you can upgrade, downgrade, or cancel your plan at any time. Changes take effect at the start of your next billing cycle."
+        },
+        "4": {
+          "question": "Do you offer refunds?",
+          "answer": "We offer a 30-day money-back guarantee for all paid plans if you're not satisfied with our service."
+        }
+      }
+    },
     "pricing": {
       "title": "Pricing & Plans",
       "questions": {
@@ -68,6 +110,14 @@
         "2": {
           "question": "Can I export my data?",
           "answer": "Yes, you can export your store data anytime."
+        },
+        "3": {
+          "question": "Is there a community forum?",
+          "answer": "Yes, we have an active community forum where you can connect with other users, share tips, and get advice."
+        },
+        "4": {
+          "question": "Do you offer developer support?",
+          "answer": "Absolutely! Our developer support team is available to help with technical questions, customizations, and integrations."
         }
       }
     }

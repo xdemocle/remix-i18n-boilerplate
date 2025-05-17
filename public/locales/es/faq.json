@@ -32,16 +32,58 @@
       "title": "Características",
       "questions": {
         "1": {
-          "question": "¿Mi sitio es SEO y compatible con móviles?",
-          "answer": "Sí, todos los sitios están optimizados para SEO y son 100% responsivos."
+          "question": "¿Mi sitio es compatible con SEO y dispositivos móviles?",
+          "answer": "Sí, todos los sitios están optimizados para SEO y son totalmente responsivos para móviles, tablets y escritorio."
         },
         "2": {
           "question": "¿Puedo conectar mi propio dominio?",
-          "answer": "¡Sí! Los planes gratuitos incluyen subdominio y los pagos permiten dominio personalizado."
+          "answer": "¡Sí! Los planes gratuitos obtienen un subdominio, y los planes de pago permiten dominios personalizados."
         },
         "3": {
-          "question": "¿Qué integraciones hay disponibles?",
-          "answer": "Integra pagos, analíticas, marketing y más."
+          "question": "¿Qué integraciones están disponibles?",
+          "answer": "Integración con proveedores de pago, analíticas, herramientas de marketing y más."
+        }
+      }
+    },
+    "technical": {
+      "title": "Técnico",
+      "questions": {
+        "1": {
+          "question": "¿Qué tecnologías utiliza remix-i18n-boilerplate?",
+          "answer": "Utilizamos Remix.js, React, TailwindCSS e i18next para internacionalización, proporcionando una base moderna, rápida y escalable."
+        },
+        "2": {
+          "question": "¿Puedo personalizar el código?",
+          "answer": "Sí, el boilerplate es completamente personalizable. Tienes acceso completo al código fuente y puedes modificarlo según tus necesidades."
+        },
+        "3": {
+          "question": "¿Es compatible con mi base de datos existente?",
+          "answer": "El boilerplate está diseñado para funcionar con la mayoría de las bases de datos modernas y puede configurarse para conectarse a tus fuentes de datos existentes."
+        },
+        "4": {
+          "question": "¿Cómo implemento mi aplicación?",
+          "answer": "Puedes implementarla en Cloudflare Workers, Vercel, Netlify o cualquier otra plataforma de alojamiento que admita aplicaciones Remix."
+        }
+      }
+    },
+    "billing": {
+      "title": "Facturación",
+      "questions": {
+        "1": {
+          "question": "¿Ofrecen un nivel gratuito?",
+          "answer": "Sí, ofrecemos un nivel gratuito con funciones esenciales para comenzar. Puedes actualizar a planes premium para capacidades adicionales."
+        },
+        "2": {
+          "question": "¿Qué métodos de pago aceptan?",
+          "answer": "Aceptamos todas las principales tarjetas de crédito, PayPal y transferencias bancarias para cuentas comerciales."
+        },
+        "3": {
+          "question": "¿Puedo cambiar de plan más adelante?",
+          "answer": "Sí, puedes actualizar, degradar o cancelar tu plan en cualquier momento. Los cambios entran en vigor al comienzo de tu próximo ciclo de facturación."
+        },
+        "4": {
+          "question": "¿Ofrecen reembolsos?",
+          "answer": "Ofrecemos una garantía de devolución de dinero de 30 días para todos los planes de pago si no estás satisfecho con nuestro servicio."
         }
       }
     },
@@ -68,6 +110,14 @@
         "2": {
           "question": "¿Puedo exportar mis datos?",
           "answer": "Sí, puedes exportar los datos de tu tienda en cualquier momento."
+        },
+        "3": {
+          "question": "¿Hay un foro comunitario?",
+          "answer": "Sí, tenemos un foro comunitario activo donde puedes conectar con otros usuarios, compartir consejos y obtener asesoramiento."
+        },
+        "4": {
+          "question": "¿Ofrecen soporte para desarrolladores?",
+          "answer": "¡Por supuesto! Nuestro equipo de soporte para desarrolladores está disponible para ayudar con preguntas técnicas, personalizaciones e integraciones."
         }
       }
     }
