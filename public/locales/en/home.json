@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "remix-i18n-boilerplate - Modern Remix Boilerplate for Startups",
+    "description": "Production-ready Remix.js boilerplate for startups, local vendors, and small businesses. Fast, modern, and SEO-optimized."
+  },
+  "hero": {
+    "title": "Build your next project with Remix",
+    "subtitle": "A modern, production-ready Remix.js boilerplate for startups and makers."
+  },
+  "cta": {
+    "primary": "Get Started Free",
+    "secondary": "See Demo Store"
+  },
+  "features": {
+    "customerReach": {
+      "title": "Grow Your Customer Reach",
+      "desc": "Expand your business online with a beautiful, responsive site."
+    },
+    "seoBoost": {
+      "title": "SEO & Social Ready",
+      "desc": "SEO-optimized and ready for social sharing out of the box."
+    },
+    "templates": {
+      "title": "Beautiful Templates",
+      "desc": "Choose from modern, playful templates designed for small business."
+    },
+    "analytics": {
+      "title": "Analytics & Insights",
+      "desc": "Track your growth with built-in analytics tools."
+    },
+    "customDomain": {
+      "title": "Custom Domain Support",
+      "desc": "Use your own domain for a professional online presence."
+    }
+  },
+  "demo": {
+    "title": "Preview a Demo Store",
+    "subtitle": "See what your online store could look like in minutes."
+  },
+  "benefits": {
+    "title": "Why Choose remix-i18n-boilerplate?",
+    "list": [
+      "Production-ready, scalable stack",
+      "Modern, minimal, playful design",
+      "i18n-ready (English, Spanish, French)",
+      "TailwindCSS & Shadcn UI components",
+      "Easy to deploy on Cloudflare, Vercel, or Netlify"
+    ]
+  }
+}

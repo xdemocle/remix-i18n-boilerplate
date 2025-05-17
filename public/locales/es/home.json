@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "remix-i18n-boilerplate - Boilerplate Remix moderno para startups",
+    "description": "Boilerplate Remix.js listo para producción para startups, pequeños negocios y emprendedores. Rápido, moderno y optimizado para SEO."
+  },
+  "hero": {
+    "title": "Construye tu próximo proyecto con Remix",
+    "subtitle": "Un boilerplate moderno y listo para producción con Remix.js para startups y creadores."
+  },
+  "cta": {
+    "primary": "Comienza gratis",
+    "secondary": "Ver tienda demo"
+  },
+  "features": {
+    "customerReach": {
+      "title": "Aumenta tu alcance",
+      "desc": "Expande tu negocio online con un sitio hermoso y responsivo."
+    },
+    "seoBoost": {
+      "title": "SEO y redes sociales",
+      "desc": "Optimizado para SEO y listo para compartir en redes sociales."
+    },
+    "templates": {
+      "title": "Plantillas hermosas",
+      "desc": "Elige entre plantillas modernas y divertidas, diseñadas para pequeños negocios."
+    },
+    "analytics": {
+      "title": "Analítica e insights",
+      "desc": "Sigue tu crecimiento con herramientas de análisis integradas."
+    },
+    "customDomain": {
+      "title": "Dominio personalizado",
+      "desc": "Usa tu propio dominio para una presencia profesional."
+    }
+  },
+  "demo": {
+    "title": "Ver tienda demo",
+    "subtitle": "Mira cómo podría lucir tu tienda online en minutos."
+  },
+  "benefits": {
+    "title": "¿Por qué elegir remix-i18n-boilerplate?",
+    "list": [
+      "Stack escalable y listo para producción",
+      "Diseño moderno, minimalista y divertido",
+      "i18n listo (inglés, español, francés)",
+      "TailwindCSS y componentes Shadcn UI",
+      "Fácil de desplegar en Cloudflare, Vercel o Netlify"
+    ]
+  }
+}
