@@ -39,7 +39,7 @@
     "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250517.0",
+    "@cloudflare/vite-plugin": "^1.2.2",
     "@remix-run/dev": "^2.16.6",
     "@remix-run/eslint-config": "^2.16.6",
     "@remix-run/node": "^2.16.6",

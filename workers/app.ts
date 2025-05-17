@@ -7,7 +7,7 @@ export default {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       // eslint-disable-next-line import/no-unresolved
-      const build = await import('../build/server/index.js');
+      const build = await import('../dist/server/index.js');
       const handleRequest = createRequestHandler(
         () => Promise.resolve(build as unknown as ServerBuild),
         'development'

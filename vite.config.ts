@@ -1,13 +1,8 @@
-import { cloudflareDevProxyVitePlugin, vitePlugin as remix } from '@remix-run/dev';
+import { vitePlugin as remix } from '@remix-run/dev';
+import { cloudflare } from '@cloudflare/vite-plugin';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
-
-// Define a simple getLoadContext function that passes through the context
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function getLoadContext({ context }: { context: any }) {
-  return context;
-}
 
 export default defineConfig({
   ssr: {
@@ -28,9 +23,7 @@ export default defineConfig({
     port: 3000,
   },
   plugins: [
-    cloudflareDevProxyVitePlugin({
-      getLoadContext,
-    }),
+    cloudflare({ viteEnvironment: { name: 'ssr' } }),
     remix({
       ignoredRouteFiles: ['**/*.css'],
       ssr: true,

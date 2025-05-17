@@ -6,7 +6,6 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "remix-i18n-boilerplate-remix-cloudflare-workers",
   "compatibility_date": "2025-05-05",
-  "compatibility_flags": ["nodejs_compat"],
   "main": "./workers/app.ts",
   "workers_dev": true,
   "vars": {
@@ -44,7 +43,11 @@
    */
   // "assets": { "directory": "./public/", "binding": "ASSETS" },
 
-  "assets": { "directory": "./build/client", "binding": "ASSETS" }
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
 
   /**
    * Service Bindings (communicate between multiple Workers)
