@@ -35,7 +35,8 @@
   },
   "ctaSection": {
     "title": "Ready to get started?",
-    "subtitle": "Sign up now and launch your project in minutes."
+    "subtitle": "Sign up now and launch your project in minutes.",
+    "cta": "Start now"
   },
   "testimonialsSection": {
     "title": "What users say",

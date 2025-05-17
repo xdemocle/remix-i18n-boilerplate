@@ -43,7 +43,8 @@
   },
   "ctaSection": {
     "title": "¿Listo para comenzar?",
-    "subtitle": "Regístrate ahora y lanza tu proyecto en minutos."
+    "subtitle": "Regístrate ahora y lanza tu proyecto en minutos.",
+    "cta": "Comenzar ahora"
   },
   "testimonialsSection": {
     "title": "Lo que dicen los usuarios",
