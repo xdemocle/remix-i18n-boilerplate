@@ -7,15 +7,7 @@ export const debug = true;
 export const defaultNS = 'common' as const;
 export const fallbackLng = 'en' as const;
 export const locales = ['en', 'es'] as const;
-export const namespaces = [
-  'common',
-  'contact',
-  'demo',
-  'faq',
-  'features',
-  'home',
-  'pricing',
-] as const;
+export const namespaces = ['common', 'faq', 'home'] as const;
 
 // Base configuration shared between client and server
 const baseConfig: InitOptions = {
