@@ -1,7 +1,8 @@
 import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
-import { CtaButton } from '~/components/ui/cta-button';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { BackgroundSlider } from '~/components/ui/background-slider';
+import { CtaButton } from '~/components/ui/cta-button';
 import remixI18Next from '~/i18n/i18next.server';
 import { MainLayout } from '../components/layout/main-layout';
 import { AnimatedSection } from '../components/ui/animated-section';
@@ -85,25 +86,26 @@ export default function Index() {
   return (
     <MainLayout>
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+      <section className="pt-[30vh] relative relative justify-center align-center h-[80vh] pb-60 md:pt-40 md:pb-60 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-700 z-0">
-          <div className="absolute inset-0 opacity-10">
-            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <defs>
-                <pattern id="honeycomb" width="12" height="20" patternUnits="userSpaceOnUse">
-                  <path d="M5.5,0 L11,10 L5.5,20 L0,10 Z" fill="currentColor" />
-                </pattern>
-              </defs>
-              <rect width="100%" height="100%" fill="url(#honeycomb)" />
-            </svg>
-          </div>
+          <BackgroundSlider
+            images={[
+              '/assets/images/daiga-ellaby-YnNczu62rdk-unsplash.jpg',
+              '/assets/images/jason-leung-v9NklNa26GU-unsplash.jpg',
+              '/assets/images/marek-piwnicki-3f22ob_rtnA-unsplash.jpg',
+              '/assets/images/wietse-jongsma-K_GLVR6O1ME-unsplash.jpg',
+              '/assets/images/zetong-li-aCusqffy5sY-unsplash.jpg',
+            ]}
+            interval={6000}
+            className="z-0"
+          />
         </div>
 
-        <div className="container mx-auto px-4 z-10 relative">
+        <div className="absolute top-1/2 left-0 transform -translate-y-1/2 container mx-auto px-4 z-10 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <motion.h1
-                className="text-white text-4xl md:text-5xl font-bold mb-6"
+                className="text-white text-4xl md:text-5xl font-bold mb-6 text-shadow-sm"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -112,7 +114,7 @@ export default function Index() {
               </motion.h1>
 
               <motion.p
-                className="text-primary-50 text-lg md:text-xl mb-8"
+                className="text-primary-50 text-lg md:text-xl mb-8 text-white text-shadow-sm"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
@@ -126,20 +128,10 @@ export default function Index() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <CtaButton
-                  variant="cta"
-                  size="lg"
-                  rounded="full"
-                  to="/signup"
-                >
+                <CtaButton variant="cta" size="lg" rounded="full" to="/signup">
                   {t('hero.primaryCta')}
                 </CtaButton>
-                <CtaButton
-                  variant="outline"
-                  size="lg"
-                  rounded="full"
-                  to="/features"
-                >
+                <CtaButton variant="outline" size="lg" rounded="full" to="/features">
                   {t('hero.secondaryCta')}
                 </CtaButton>
               </motion.div>
@@ -326,12 +318,7 @@ export default function Index() {
                 {t('ctaSection.title')}
               </h2>
               <p className="text-primary-900 mb-8 text-lg">{t('ctaSection.subtitle')}</p>
-              <CtaButton
-                variant="cta"
-                size="lg"
-                rounded="full"
-                to="/signup"
-              >
+              <CtaButton variant="cta" size="lg" rounded="full" to="/signup">
                 {t('ctaSection.cta')}
               </CtaButton>
             </AnimatedSection>
