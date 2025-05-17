@@ -13,13 +13,19 @@ A production-ready template for building full-stack React applications using Rem
 - 🔒 TypeScript by default
 - 🎉 TailwindCSS for styling
 - 📚 i18next for i18n
+- ☁️ Cloudflare Workers ready
 - 📚 shadcn for ui components
 - 📚 tw-animate-css for animations
 - 📚 react-intersection-observer for intersection observer
-- 📚 postcss integrated in vite <https://remix.run/docs/en/main/styling/postcss#postcss>
+- 📚 postcss integrated in vite
+
+## Documentation
+
 - 📖 [Remix docs](https://remix.run/)
 - 📖 [React Router docs](https://reactrouter.com/)
 - 📖 [pnpm docs](https://pnpm.io/)
+- 📚 [postcss docs](https://remix.run/docs/en/main/styling/postcss#postcss)
+- 📖 [Cloudflare Workers docs](https://developers.cloudflare.com/workers/)
 
 ## Getting Started
 
@@ -69,12 +75,12 @@ pnpm run build
 
 ## Deployment
 
-### Cloudflare Pages Deployment
+### Cloudflare Workers Deployment
 
-This project is configured for deployment to Cloudflare Pages using Wrangler. The setup includes:
+This project is configured for deployment to Cloudflare Workers using Wrangler. The setup includes:
 
-- `workers/server.js` - Handles the Cloudflare Workers integration with Remix
-- `wrangler.toml` - Configuration for Cloudflare Workers deployment
+- `workers/app.ts` - Handles the Cloudflare Workers integration with Remix
+- `wrangler.jsonc` - Configuration for Cloudflare Workers deployment
 
 To deploy the application:
 
@@ -96,7 +102,7 @@ wrangler login
 pnpm run deploy
 ```
 
-This will build your Remix application and deploy it to Cloudflare Pages. You can also use the following commands for development and testing:
+This will build your Remix application and deploy it to Cloudflare Workers. You can also use the following commands for development and testing:
 
 - `pnpm run dev` - Start the development server
 - `pnpm run build` - Build the application
