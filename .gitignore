@@ -14,5 +14,5 @@ build/
 
 .cache
 .env
-pnpm-lock.yaml
 pnpm-workspace.yaml
+.windsurfrules*

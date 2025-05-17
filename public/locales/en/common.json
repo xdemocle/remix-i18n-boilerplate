@@ -8,26 +8,29 @@
     "loginButton": "Login"
   },
   "footer": {
-    "description": "bzz.one helps local vendors, small businesses, and street shop owners launch their online presence in just 2 clicks.",
+    "description": "Production-ready Remix boilerplate. Modern, playful, and perfect for startups, local vendors, and small businesses.",
     "navigation": "Navigation",
     "connect": "Connect",
     "contactUs": "Contact Us",
-    "newsletterTitle": "Subscribe to our newsletter",
     "allRightsReserved": "All rights reserved.",
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy"
   },
-  "newsletter": {
-    "emailPlaceholder": "Your email address",
-    "subscribe": "Subscribe",
-    "subscribing": "Subscribing...",
-    "subscribed": "Subscribed!",
-    "error": "Oops! Something went wrong. Please try again.",
-    "success": "Thank you for subscribing to our newsletter!"
+  "cta": {
+    "getStarted": "Get started for free",
+    "demoStore": "Preview a sample store",
+    "learnMore": "Learn more"
   },
-  "map": {
-    "error": "Error loading the map",
-    "placeholderTitle": "Example Small Business Locations",
-    "placeholderText": "This map would show example businesses using our platform. This is just a demonstration."
+  "benefits": {
+    "easySetup": "Easy setup, no tech skills needed",
+    "seoReady": "SEO-optimized and social media ready",
+    "templates": "Beautiful templates included",
+    "analytics": "Analytics and growth tools",
+    "customDomain": "Custom domain support",
+    "support": "Friendly support",
+    "i18n": "i18n-ready (English, French)",
+    "tailwind": "TailwindCSS styling",
+    "shadcn": "Shadcn UI components",
+    "postcss": "PostCSS & Vite integration"
   }
 }

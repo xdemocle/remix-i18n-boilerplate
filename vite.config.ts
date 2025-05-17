@@ -1,9 +1,8 @@
-// import { cloudflare } from '@cloudflare/vite-plugin';
 import { defineConfig } from 'vite';
 import { vitePlugin as remix, cloudflareDevProxyVitePlugin } from '@remix-run/dev';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import tailwindcss from '@tailwindcss/vite';
-import { getLoadContext } from './load-context';
+import { getLoadContext } from './workers/load-context';
 
 export default defineConfig({
   ssr: {
@@ -27,9 +26,8 @@ export default defineConfig({
     cloudflareDevProxyVitePlugin({
       getLoadContext,
     }),
-    // cloudflare({ viteEnvironment: { name: 'ssr' } }),
     remix({
-      // ignoredRouteFiles: ['**/*.css'],
+      ignoredRouteFiles: ['**/*.css'],
       ssr: true,
       future: {
         v3_fetcherPersist: true,

@@ -8,26 +8,29 @@
     "loginButton": "Iniciar sesión"
   },
   "footer": {
-    "description": "bzz.one ayuda a vendedores locales, pequeñas empresas y tiendas a lanzar su presencia en línea con solo 2 clics.",
+    "description": "Boilerplate Remix listo para producción. Moderno, divertido y perfecto para startups, pequeños negocios y emprendedores.",
     "navigation": "Navegación",
     "connect": "Conectar",
     "contactUs": "Contáctanos",
-    "newsletterTitle": "Suscríbete a nuestro boletín",
     "allRightsReserved": "Todos los derechos reservados.",
     "terms": "Términos y condiciones",
     "privacy": "Política de privacidad"
   },
-  "newsletter": {
-    "emailPlaceholder": "Tu dirección de correo",
-    "subscribe": "Suscribirse",
-    "subscribing": "Suscribiendo...",
-    "subscribed": "¡Suscrito!",
-    "error": "¡Ups! Algo salió mal. Por favor, inténtalo de nuevo.",
-    "success": "¡Gracias por suscribirte a nuestro boletín!"
+  "cta": {
+    "getStarted": "Comienza gratis",
+    "demoStore": "Ver tienda de ejemplo",
+    "learnMore": "Saber más"
   },
-  "map": {
-    "error": "Error al cargar el mapa",
-    "placeholderTitle": "Ubicaciones de ejemplo de pequeños negocios",
-    "placeholderText": "Este mapa mostraría ejemplos de negocios usando nuestra plataforma. Esto es solo una demostración."
+  "benefits": {
+    "easySetup": "Configuración fácil, sin conocimientos técnicos",
+    "seoReady": "SEO optimizado y listo para redes sociales",
+    "templates": "Plantillas hermosas incluidas",
+    "analytics": "Herramientas de análisis y crecimiento",
+    "customDomain": "Soporte de dominio personalizado",
+    "support": "Soporte amigable",
+    "i18n": "i18n listo (Inglés, Francés)",
+    "tailwind": "Estilos con TailwindCSS",
+    "shadcn": "Componentes Shadcn UI",
+    "postcss": "Integración PostCSS & Vite"
   }
 }

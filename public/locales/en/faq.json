@@ -1,100 +1,80 @@
 {
   "hero": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Get answers to the most common questions about bzz.one"
+    "subtitle": "Everything you need to know about launching your online store with remix-i18n-boilerplate."
   },
   "search": {
-    "placeholder": "Search for questions..."
+    "placeholder": "Search questions..."
   },
   "categories": {
     "general": {
-      "title": "General Questions",
+      "title": "General",
       "questions": {
         "1": {
-          "question": "What is bzz.one?",
-          "answer": "bzz.one is a platform that helps local vendors, small businesses, and street shop owners launch their online presence in just 2 clicks. We provide easy-to-use tools to create websites, online stores, and digital presence without any technical knowledge."
+          "question": "What is remix-i18n-boilerplate?",
+          "answer": "A platform to launch your online store in just 2 clicks—no tech skills needed. Perfect for small businesses and local vendors."
         },
         "2": {
-          "question": "Do I need technical knowledge to use bzz.one?",
-          "answer": "Not at all! bzz.one is specifically designed for non-technical users. Our platform uses a simple visual editor and pre-made templates that make it incredibly easy to create a professional online presence without any coding or design skills."
+          "question": "Do I need technical skills?",
+          "answer": "No! Our visual editor and templates make it easy for anyone to get started."
         },
         "3": {
-          "question": "How long does it take to set up my online store?",
-          "answer": "Most users can set up their basic online store in under 30 minutes. Simply choose a template, add your business information and products, and you're ready to go. Of course, you can continue to refine and expand your store over time."
+          "question": "How fast can I launch?",
+          "answer": "Most users are live in under 30 minutes."
         },
         "4": {
-          "question": "Can I sell physical products, digital products, or services?",
-          "answer": "Yes to all! bzz.one supports selling physical products with shipping options, digital products with automatic delivery, and services with booking capabilities. Our platform is flexible enough to handle various business models."
+          "question": "What can I sell?",
+          "answer": "Physical products, digital goods, or services—our platform supports all business types."
         }
       }
     },
-    "technical": {
-      "title": "Technical Questions",
+    "features": {
+      "title": "Features",
       "questions": {
         "1": {
-          "question": "Can I use my own domain name?",
-          "answer": "Yes! Free accounts get a yourname.bzz.one subdomain, but paid plans allow you to connect your own custom domain name. We'll guide you through the simple process of connecting your domain."
+          "question": "Is my site SEO and mobile-friendly?",
+          "answer": "Yes, all sites are SEO-optimized and fully responsive for mobile, tablet, and desktop."
         },
         "2": {
-          "question": "Is my website mobile-friendly?",
-          "answer": "Absolutely! All bzz.one websites and stores are fully responsive and look great on mobile devices, tablets, and desktops. In fact, we design for mobile-first since many customers shop from their phones."
+          "question": "Can I connect my own domain?",
+          "answer": "Yes! Free plans get a subdomain, and paid plans allow custom domains."
         },
         "3": {
-          "question": "How secure is my store?",
-          "answer": "Security is our top priority. All bzz.one stores include SSL certificates for secure browsing, PCI-compliant payment processing, and regular security updates. We also provide automated backups to keep your data safe."
-        },
-        "4": {
-          "question": "Can I integrate with other tools and services?",
-          "answer": "Yes! bzz.one integrates with popular payment processors, shipping carriers, marketing tools, and social media platforms. Pro and Business plans offer additional advanced integrations with accounting software, CRM systems, and more."
+          "question": "What integrations are available?",
+          "answer": "Integrate with payment providers, analytics, marketing tools, and more."
         }
       }
     },
-    "billing": {
-      "title": "Billing & Pricing",
+    "pricing": {
+      "title": "Pricing & Plans",
       "questions": {
         "1": {
-          "question": "How much does bzz.one cost?",
-          "answer": "bzz.one offers a freemium model. You can start with a free plan that includes basic features and bzz.one branding. Our Pro plan costs $9.99/month and includes more features like custom domain support, no ads, and advanced tools. For growing businesses, our Business plan at $29.99/month offers even more capabilities."
+          "question": "How much does it cost?",
+          "answer": "Start free! Upgrade to Pro or Business for more features and no ads."
         },
         "2": {
-          "question": "Are there any transaction fees?",
-          "answer": "For online payments, there is a small processing fee that varies by plan (starting at 2.9% + 30¢ per transaction for the free plan). This covers the cost of secure payment processing. There are no additional transaction fees beyond this."
-        },
-        "3": {
-          "question": "Can I upgrade or downgrade my plan?",
-          "answer": "Yes, you can change your plan at any time. When upgrading, you'll immediately gain access to new features. If you downgrade, the changes will take effect at the end of your current billing cycle."
-        },
-        "4": {
-          "question": "Do you offer refunds?",
-          "answer": "We offer a 14-day money-back guarantee on all paid plans. If you're not satisfied with your purchase, contact our support team within 14 days for a full refund."
+          "question": "Are there transaction fees?",
+          "answer": "Only standard payment processing fees apply—no hidden charges."
         }
       }
     },
     "support": {
-      "title": "Support & Help",
+      "title": "Support",
       "questions": {
         "1": {
-          "question": "How can I get help if I'm stuck?",
-          "answer": "We offer multiple support channels. All users have access to our comprehensive knowledge base and community forums. Paid plans include email support, with higher-tier plans offering priority support and live chat. Business plan users also get access to dedicated support specialists."
+          "question": "How do I get help?",
+          "answer": "Access our help center, tutorials, or contact our friendly support team."
         },
         "2": {
-          "question": "Do you offer training or onboarding?",
-          "answer": "Yes! We provide free video tutorials for all users. Pro and Business plans include access to webinars and group training sessions. Business plan users can also request personalized onboarding sessions to help set up their stores."
-        },
-        "3": {
-          "question": "Can you help me with my SEO and marketing?",
-          "answer": "Absolutely! Our platform includes built-in SEO tools to help your store get found online. Pro and Business plans include additional marketing tools like email campaigns, social media integration, and analytics. We also provide guides and tutorials on marketing best practices."
-        },
-        "4": {
-          "question": "What if I want to leave bzz.one?",
-          "answer": "While we'd be sad to see you go, we make it easy to export your data if you decide to leave. You can export your products, customers, and orders in standard formats that can be imported into most other platforms."
+          "question": "Can I export my data?",
+          "answer": "Yes, you can export your store data anytime."
         }
       }
     }
   },
   "cta": {
     "title": "Still have questions?",
-    "subtitle": "Get in touch with our friendly support team for personalized help.",
+    "subtitle": "Contact our team for personalized help.",
     "contactButton": "Contact us",
     "startButton": "Start for free"
   }
