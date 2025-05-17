@@ -1,49 +1,24 @@
-/* eslint-disable import/no-unresolved */
-import { createRequestHandler, type ServerBuild } from '@remix-run/cloudflare';
-import { type PlatformProxy } from 'wrangler';
-// @ts-expect-error not existen yet
-import * as build from '../build/server';
+import { createRequestHandler } from '@remix-run/cloudflare';
+import type { ServerBuild } from '@remix-run/cloudflare';
+// Import the server build directly
+import * as build from '../build/server/index.js';
 
-type GetLoadContextArgs = {
-  request: Request;
-  context: {
-    cloudflare: Omit<PlatformProxy<Env>, 'dispose' | 'caches' | 'cf'> & {
-      caches: PlatformProxy<Env>['caches'] | CacheStorage;
-      cf: Request['cf'];
+declare module '@remix-run/cloudflare' {
+  export interface AppLoadContext {
+    cloudflare: {
+      env: Env;
+      ctx: ExecutionContext;
     };
-  };
-};
-
-export function getLoadContext({ context }: GetLoadContextArgs) {
-  return context;
+  }
 }
 
-export default {
-  async fetch(request, env, ctx) {
-    try {
-      const loadContext = getLoadContext({
-        request,
-        context: {
-          cloudflare: {
-            cf: request.cf,
-            ctx: {
-              waitUntil: ctx.waitUntil.bind(ctx),
-              passThroughOnException: ctx.passThroughOnException.bind(ctx),
-            },
-            caches,
-            env,
-          },
-        },
-      });
+// Create the request handler with the direct import
+const handleRequest = createRequestHandler(build as unknown as ServerBuild, import.meta.env.MODE);
 
-      const handleRemixRequest = createRequestHandler(
-        build as unknown as ServerBuild,
-        'development'
-      );
-      return handleRemixRequest(request, loadContext);
-    } catch (error) {
-      console.log(error);
-      return new Response('An unexpected error occurred', { status: 500 });
-    }
+export default {
+  async fetch(request: Request, env: Env, ctx: ExecutionContext) {
+    return handleRequest(request, {
+      cloudflare: { env, ctx },
+    });
   },
 } satisfies ExportedHandler<Env>;
