@@ -1,5 +1,6 @@
 import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
 import { useTranslation } from 'react-i18next';
+import { CtaButton } from '~/components/ui/cta-button';
 import { MainLayout } from '~/components/layout/main-layout';
 import { AnimatedSection } from '~/components/ui/animated-section';
 import { FAQAccordion } from '~/components/ui/faq-accordion';
@@ -178,12 +179,22 @@ export default function FAQ() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('cta.title')}</h2>
               <p className="text-neutral-600 mb-8 text-lg">{t('cta.subtitle')}</p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="/contact" className="btn-primary">
+                <CtaButton
+                  variant="cta"
+                  size="lg"
+                  rounded="full"
+                  to="/contact"
+                >
                   {t('cta.contactButton')}
-                </a>
-                <a href="/signup" className="btn-outline">
+                </CtaButton>
+                <CtaButton
+                  variant="outline"
+                  size="lg"
+                  rounded="full"
+                  to="/signup"
+                >
                   {t('cta.startButton')}
-                </a>
+                </CtaButton>
               </div>
             </AnimatedSection>
           </div>

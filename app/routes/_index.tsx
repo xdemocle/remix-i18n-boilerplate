@@ -1,5 +1,5 @@
 import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
-import { Link } from '@remix-run/react';
+import { CtaButton } from '~/components/ui/cta-button';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import remixI18Next from '~/i18n/i18next.server';
@@ -126,15 +126,22 @@ export default function Index() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <Link to="/signup" className="btn-primary text-center">
+                <CtaButton
+                  variant="cta"
+                  size="lg"
+                  rounded="full"
+                  to="/signup"
+                >
                   {t('hero.primaryCta')}
-                </Link>
-                <Link
+                </CtaButton>
+                <CtaButton
+                  variant="outline"
+                  size="lg"
+                  rounded="full"
                   to="/features"
-                  className="btn bg-white text-neutral-900 hover:bg-neutral-100 text-center"
                 >
                   {t('hero.secondaryCta')}
-                </Link>
+                </CtaButton>
               </motion.div>
             </div>
 
@@ -319,12 +326,14 @@ export default function Index() {
                 {t('ctaSection.title')}
               </h2>
               <p className="text-primary-900 mb-8 text-lg">{t('ctaSection.subtitle')}</p>
-              <Link
+              <CtaButton
+                variant="cta"
+                size="lg"
+                rounded="full"
                 to="/signup"
-                className="btn bg-neutral-900 text-white hover:bg-neutral-800 transition-colors duration-200"
               >
                 {t('ctaSection.cta')}
-              </Link>
+              </CtaButton>
             </AnimatedSection>
           </div>
         </div>

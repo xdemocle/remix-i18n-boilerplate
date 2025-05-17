@@ -31,8 +31,8 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="text-2xl font-display font-bold">
-                <span className="text-primary-500">bzz</span>
-                <span className="text-white">.one</span>
+                <span className="text-primary-500">remix-i18n</span>
+                <span className="text-white">-boilerplate</span>
               </span>
             </Link>
             <p className="text-neutral-400 mb-6 max-w-md">{t('footer.description')}</p>
@@ -99,7 +99,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com/bzzoneapp"
+                href="https://facebook.com/remix-i18n-boilerplate"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Facebook"
@@ -121,7 +121,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/company/bzz-one"
+                href="https://linkedin.com/company/remix-i18n-boilerplate"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"

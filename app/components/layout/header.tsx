@@ -1,4 +1,5 @@
 import { Link, useLocation } from '@remix-run/react';
+import { CtaButton } from '~/components/ui/cta-button';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -62,8 +63,8 @@ export default function Header() {
             </svg>
           </div>
           <span className="text-2xl font-display font-bold">
-            <span className="text-primary-500">bzz</span>
-            <span className={isScrolled ? 'text-neutral-900' : 'text-white'}>.one</span>
+            <span className="text-primary-500">remix-i18n</span>
+            <span className={isScrolled ? 'text-neutral-900' : 'text-white'}>-boilerplate</span>
           </span>
         </Link>
 
@@ -88,9 +89,9 @@ export default function Header() {
             ))}
           </ul>
           <LanguageSwitcher isScrolled={isScrolled} />
-          <Link to="/login" className="btn-primary">
+          <CtaButton variant="cta" size="default" rounded="full" to="/login">
             {t('nav.loginButton')}
-          </Link>
+          </CtaButton>
         </nav>
 
         {/* Mobile Menu Button */}
