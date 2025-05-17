@@ -1,0 +1,17 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "bzz-one-app-remix-cloudflare-workers"
+main = "./server.ts"
+# workers_dev = true
+# https://developers.cloudflare.com/workers/platform/compatibility-dates
+compatibility_date = "2025-05-05"
+compatibility_flags = ["nodejs_compat"]
+
+[placement]
+mode = "smart"
+
+[build]
+command = "npm run build"
+
+[assets]
+# https://developers.cloudflare.com/workers/static-assets/binding/
+directory = "./build/client"

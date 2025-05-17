@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Entre em contato",
+    "subtitle": "Estamos aqui para ajudar você a ter sucesso online"
+  },
+  "contact": {
+    "email": {
+      "title": "Envie-nos um Email",
+      "description": "Envie-nos uma mensagem a qualquer momento e responderemos o mais breve possível."
+    },
+    "phone": {
+      "title": "Ligue para Nós",
+      "description": "Fale diretamente com nossa equipe de suporte durante o horário comercial."
+    },
+    "chat": {
+      "title": "WhatsApp",
+      "description": "Obtenha suporte rápido através do nosso canal do WhatsApp.",
+      "text": "Conversar no WhatsApp"
+    }
+  },
+  "form": {
+    "title": "Envie-nos uma mensagem",
+    "subtitle": "Preencha o formulário abaixo e retornaremos o mais breve possível.",
+    "name": "Seu Nome",
+    "email": "Endereço de Email",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "successTitle": "Mensagem Enviada!",
+    "successMessage": "Obrigado por nos contatar. Retornaremos em breve.",
+    "errorMessage": "Ops! Algo deu errado. Por favor, tente novamente.",
+    "sendAnother": "Enviar Outra Mensagem"
+  },
+  "locations": {
+    "title": "Nossos clientes",
+    "subtitle": "Pequenas empresas usando bzz.one estão em todo lugar!"
+  },
+  "office": {
+    "title": "Sede",
+    "address": {
+      "line1": "123 Startup Street",
+      "line2": "San Francisco, CA 94107"
+    },
+    "hours": "Segunda-Sexta: 9h-18h PST"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Respostas rápidas para perguntas comuns",
+    "questions": {
+      "1": {
+        "question": "Qual a rapidez da resposta que posso esperar?",
+        "answer": "Normalmente respondemos a todas as consultas dentro de 24 horas durante dias úteis. Clientes dos planos Pro e Business recebem suporte prioritário com tempos de resposta mais rápidos."
+      },
+      "2": {
+        "question": "Posso obter ajuda para configurar minha loja?",
+        "answer": "Absolutamente! Oferecemos onboarding personalizado para clientes do plano Business. Para planos Free e Pro, temos guias detalhados e nossa equipe de suporte está sempre pronta para responder perguntas específicas."
+      },
+      "3": {
+        "question": "Vocês oferecem desenvolvimento personalizado?",
+        "answer": "Sim, para clientes do plano Business, podemos fornecer serviços de desenvolvimento personalizado para atender necessidades específicas. Entre em contato com nossa equipe de vendas para discutir seus requisitos e obter um orçamento."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para começar sua jornada online?",
+    "subtitle": "Junte-se a milhares de pequenas empresas que já usam bzz.one",
+    "button": "Comece grátis hoje"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "demo": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "allProducts": "All Products",
+    "productsCategory": "Products",
+    "poweredBy": "Powered by"
+  }
+}

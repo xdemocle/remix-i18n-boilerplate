@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "loginButton": "Login"
+  },
+  "footer": {
+    "description": "bzz.one helps local vendors, small businesses, and street shop owners launch their online presence in just 2 clicks.",
+    "navigation": "Navigation",
+    "connect": "Connect",
+    "contactUs": "Contact Us",
+    "newsletterTitle": "Subscribe to our newsletter",
+    "allRightsReserved": "All rights reserved.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "newsletter": {
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "subscribed": "Subscribed!",
+    "error": "Oops! Something went wrong. Please try again.",
+    "success": "Thank you for subscribing to our newsletter!"
+  },
+  "map": {
+    "error": "Error loading the map",
+    "placeholderTitle": "Example Small Business Locations",
+    "placeholderText": "This map would show example businesses using our platform. This is just a demonstration."
+  }
+}

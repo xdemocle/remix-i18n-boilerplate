@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Lancez votre boutique en ligne en 2 clics",
+    "subtitle": "Aidez les vendeurs locaux, les petites entreprises et les propriétaires de magasins à lancer leur présence en ligne plus rapidement que jamais.",
+    "primaryCta": "Commencer gratuitement",
+    "secondaryCta": "En savoir plus"
+  },
+  "featuresSection": {
+    "title": "Pourquoi choisir bzz.one ?",
+    "subtitle": "Nous rendons incroyablement simple pour les petites entreprises d'aller en ligne sans connaissances techniques.",
+    "viewAllFeatures": "Voir toutes les fonctionnalités"
+  },
+  "features": {
+    "customerReach": {
+      "title": "Atteignez de nouveaux clients",
+      "description": "Développez votre entreprise au-delà de votre emplacement physique et atteignez des clients en ligne."
+    },
+    "onlineSales": {
+      "title": "Vendez 24/7",
+      "description": "Gardez votre entreprise ouverte en permanence avec une vitrine en ligne qui ne ferme jamais."
+    },
+    "deviceFriendly": {
+      "title": "Optimisé pour mobile",
+      "description": "Votre boutique en ligne s'affichera parfaitement sur les téléphones, tablettes et ordinateurs automatiquement."
+    }
+  },
+  "demoSection": {
+    "title": "Voyez-le en action",
+    "subtitle": "Prévisualisez à quoi pourrait ressembler votre boutique en ligne en quelques minutes",
+    "tagline": "Prêt à lancer votre propre boutique ?",
+    "cta": "Commencez maintenant"
+  },
+  "testimonialsSection": {
+    "title": "Écoutez nos clients",
+    "subtitle": "Des propriétaires de petites entreprises qui ont transformé leur activité avec bzz.one",
+    "testimonials": {
+      "0": {
+        "quote": "Je n'aurais jamais pensé qu'aller en ligne pourrait être aussi facile. En une journée, ma boulangerie avait une présence en ligne et j'ai commencé à recevoir des commandes via mon site web !",
+        "name": "Maria Gonzalez",
+        "business": "Pâtisserie Sweet Treats"
+      },
+      "1": {
+        "quote": "En tant que vendeur de rue, j'étais sceptique quant à la nécessité d'un site web. Maintenant, 30% de mon activité provient de commandes en ligne grâce à bzz.one.",
+        "name": "Ahmed Khan",
+        "business": "Étal du Marché aux Épices"
+      },
+      "2": {
+        "quote": "Le fait que je puisse configurer toute ma boutique en ligne sans aucune connaissance technique était incroyable. Mes clients adorent !",
+        "name": "Sarah Johnson",
+        "business": "Boutique Vintage Finds"
+      }
+    }
+  },
+  "ctaSection": {
+    "title": "Prêt à développer votre entreprise en ligne ?",
+    "subtitle": "Rejoignez des milliers de petites entreprises qui utilisent déjà bzz.one",
+    "cta": "Commencez gratuitement aujourd'hui"
+  }
+}

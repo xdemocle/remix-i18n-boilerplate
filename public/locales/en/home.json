@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Launch your online store in 2 clicks",
+    "subtitle": "Help local vendors, small businesses, and street shop owners launch their online presence faster than ever before.",
+    "primaryCta": "Start for free",
+    "secondaryCta": "Learn more"
+  },
+  "featuresSection": {
+    "title": "Why choose bzz.one?",
+    "subtitle": "We make it incredibly simple for small businesses to go online without technical knowledge.",
+    "viewAllFeatures": "View all features"
+  },
+  "features": {
+    "customerReach": {
+      "title": "Reach New Customers",
+      "description": "Expand your business beyond your physical location and reach customers online."
+    },
+    "onlineSales": {
+      "title": "Sell 24/7",
+      "description": "Keep your business open around the clock with an online storefront that never closes."
+    },
+    "deviceFriendly": {
+      "title": "Mobile Optimized",
+      "description": "Your online store will look great on phones, tablets, and computers automatically."
+    }
+  },
+  "demoSection": {
+    "title": "See it in action",
+    "subtitle": "Preview what your online store could look like in just minutes",
+    "tagline": "Ready to launch your own store?",
+    "cta": "Get started now"
+  },
+  "testimonialsSection": {
+    "title": "Hear from our customers",
+    "subtitle": "Small business owners who have transformed their business with bzz.one",
+    "testimonials": {
+      "0": {
+        "quote": "I never thought going online could be this easy. Within a day, my bakery had an online presence and I started getting orders through my website!",
+        "name": "Maria Gonzalez",
+        "business": "Sweet Treats Bakery"
+      },
+      "1": {
+        "quote": "As a street vendor, I was skeptical about needing a website. Now 30% of my business comes through online orders thanks to bzz.one.",
+        "name": "Ahmed Khan",
+        "business": "Spice Market Stall"
+      },
+      "2": {
+        "quote": "The fact that I could set up my whole boutique online without any technical knowledge was amazing. My customers love it!",
+        "name": "Sarah Johnson",
+        "business": "Vintage Finds Boutique"
+      }
+    }
+  },
+  "ctaSection": {
+    "title": "Ready to grow your business online?",
+    "subtitle": "Join thousands of small businesses already using bzz.one",
+    "cta": "Start for free today"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtén respuestas a las preguntas más comunes sobre bzz.one"
+  },
+  "search": {
+    "placeholder": "Buscar preguntas..."
+  },
+  "categories": {
+    "general": {
+      "title": "Preguntas Generales",
+      "questions": {
+        "1": {
+          "question": "¿Qué es bzz.one?",
+          "answer": "bzz.one es una plataforma que ayuda a vendedores locales, pequeñas empresas y tiendas de calle a lanzar su presencia en línea en solo 2 clics. Proporcionamos herramientas fáciles de usar para crear sitios web, tiendas en línea y presencia digital sin ningún conocimiento técnico."
+        },
+        "2": {
+          "question": "¿Necesito conocimientos técnicos para usar bzz.one?",
+          "answer": "¡Para nada! bzz.one está específicamente diseñado para usuarios no técnicos. Nuestra plataforma utiliza un editor visual simple y plantillas prediseñadas que hacen que sea increíblemente fácil crear una presencia profesional en línea sin necesidad de habilidades de programación o diseño."
+        },
+        "3": {
+          "question": "¿Cuánto tiempo lleva configurar mi tienda en línea?",
+          "answer": "La mayoría de los usuarios pueden configurar su tienda en línea básica en menos de 30 minutos. Simplemente elige una plantilla, agrega la información de tu negocio y productos, ¡y estás listo! Por supuesto, puedes continuar refinando y expandiendo tu tienda con el tiempo."
+        },
+        "4": {
+          "question": "¿Puedo vender productos físicos, productos digitales o servicios?",
+          "answer": "¡Sí a todo! bzz.one admite la venta de productos físicos con opciones de envío, productos digitales con entrega automática y servicios con capacidades de reserva. Nuestra plataforma es lo suficientemente flexible para manejar varios modelos de negocio."
+        }
+      }
+    },
+    "technical": {
+      "title": "Preguntas Técnicas",
+      "questions": {
+        "1": {
+          "question": "¿Puedo usar mi propio nombre de dominio?",
+          "answer": "¡Sí! Las cuentas gratuitas obtienen un subdominio tunombre.bzz.one, pero los planes pagos te permiten conectar tu propio nombre de dominio personalizado. Te guiaremos a través del simple proceso de conexión de tu dominio."
+        },
+        "2": {
+          "question": "¿Mi sitio web es compatible con dispositivos móviles?",
+          "answer": "¡Absolutamente! Todos los sitios web y tiendas de bzz.one son completamente responsivos y se ven geniales en dispositivos móviles, tabletas y computadoras. De hecho, diseñamos primero para móviles ya que muchos clientes compran desde sus teléfonos."
+        },
+        "3": {
+          "question": "¿Qué tan segura es mi tienda?",
+          "answer": "La seguridad es nuestra principal prioridad. Todas las tiendas bzz.one incluyen certificados SSL para navegación segura, procesamiento de pagos compatible con PCI y actualizaciones de seguridad regulares. También proporcionamos copias de seguridad automáticas para mantener tus datos seguros."
+        },
+        "4": {
+          "question": "¿Puedo integrar con otras herramientas y servicios?",
+          "answer": "¡Sí! bzz.one se integra con procesadores de pago populares, transportistas, herramientas de marketing y plataformas de redes sociales. Los planes Pro y Business ofrecen integraciones avanzadas adicionales con software de contabilidad, sistemas CRM y más."
+        }
+      }
+    },
+    "billing": {
+      "title": "Facturación y Precios",
+      "questions": {
+        "1": {
+          "question": "¿Cuánto cuesta bzz.one?",
+          "answer": "bzz.one ofrece un modelo freemium. Puedes comenzar con un plan gratuito que incluye características básicas y marca bzz.one. Nuestro plan Pro cuesta $9.99/mes e incluye más características como soporte de dominio personalizado, sin anuncios y herramientas avanzadas. Para negocios en crecimiento, nuestro plan Business a $29.99/mes ofrece aún más capacidades."
+        },
+        "2": {
+          "question": "¿Hay tarifas de transacción?",
+          "answer": "Para pagos en línea, hay una pequeña tarifa de procesamiento que varía según el plan (comenzando en 2.9% + 30¢ por transacción para el plan gratuito). Esto cubre el costo del procesamiento seguro de pagos. No hay tarifas de transacción adicionales más allá de esto."
+        },
+        "3": {
+          "question": "¿Puedo actualizar o bajar de categoría mi plan?",
+          "answer": "Sí, puedes cambiar tu plan en cualquier momento. Al actualizar, obtendrás acceso inmediato a las nuevas características. Si bajas de categoría, los cambios entrarán en vigor al final de tu ciclo de facturación actual."
+        },
+        "4": {
+          "question": "¿Ofrecen reembolsos?",
+          "answer": "Ofrecemos una garantía de devolución de dinero de 14 días en todos los planes pagos. Si no estás satisfecho con tu compra, contacta a nuestro equipo de soporte dentro de los 14 días para un reembolso completo."
+        }
+      }
+    },
+    "support": {
+      "title": "Soporte y Ayuda",
+      "questions": {
+        "1": {
+          "question": "¿Cómo puedo obtener ayuda si estoy atascado?",
+          "answer": "Ofrecemos múltiples canales de soporte. Todos los usuarios tienen acceso a nuestra base de conocimientos integral y foros de la comunidad. Los planes pagos incluyen soporte por correo electrónico, con planes de nivel superior que ofrecen soporte prioritario y chat en vivo. Los usuarios del plan Business también obtienen acceso a especialistas de soporte dedicados."
+        },
+        "2": {
+          "question": "¿Ofrecen capacitación o incorporación?",
+          "answer": "¡Sí! Proporcionamos tutoriales en video gratuitos para todos los usuarios. Los planes Pro y Business incluyen acceso a webinars y sesiones de capacitación grupal. Los usuarios del plan Business también pueden solicitar sesiones de incorporación personalizadas para ayudar a configurar sus tiendas."
+        },
+        "3": {
+          "question": "¿Pueden ayudarme con mi SEO y marketing?",
+          "answer": "¡Absolutamente! Nuestra plataforma incluye herramientas SEO integradas para ayudar a que tu tienda sea encontrada en línea. Los planes Pro y Business incluyen herramientas de marketing adicionales como campañas de correo electrónico, integración con redes sociales y análisis. También proporcionamos guías y tutoriales sobre mejores prácticas de marketing."
+        },
+        "4": {
+          "question": "¿Qué pasa si quiero dejar bzz.one?",
+          "answer": "Aunque nos entristecería verte partir, facilitamos la exportación de tus datos si decides irte. Puedes exportar tus productos, clientes y pedidos en formatos estándar que se pueden importar a la mayoría de las otras plataformas."
+        }
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Aún tienes preguntas?",
+    "subtitle": "Ponte en contacto con nuestro amigable equipo de soporte para obtener ayuda personalizada.",
+    "contactButton": "Contáctanos",
+    "startButton": "Comenzar gratis"
+  }
+}

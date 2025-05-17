@@ -1,0 +1,165 @@
+{
+  "hero": {
+    "title": "Preços simples e transparentes",
+    "subtitle": "Planos que crescem com seu negócio, sem surpresas"
+  },
+  "pricing": {
+    "title": "Escolha o plano ideal para você",
+    "subtitle": "De pequenas lojas a negócios em crescimento, temos um plano para todos"
+  },
+  "popularPlan": "Mais Popular",
+  "plans": {
+    "free": {
+      "name": "Grátis",
+      "description": "Perfeito para começar",
+      "price": "$0",
+      "period": "/mês",
+      "button": "Começar grátis",
+      "features": {
+        "storeBuilder": "Construtor de loja fácil",
+        "products": "Até 10 produtos",
+        "templates": "Templates básicos",
+        "mobileOptimized": "Otimizado para mobile",
+        "basicSeo": "SEO básico",
+        "bzzDomain": "Domínio .bzz.one gratuito",
+        "ads": "Marca e anúncios bzz.one",
+        "customDomain": "Domínio personalizado",
+        "analytics": "Análise avançada"
+      }
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Ideal para pequenos negócios",
+      "price": "$9.99",
+      "period": "/mês",
+      "button": "Começar",
+      "features": {
+        "storeBuilder": "Construtor de loja avançado",
+        "products": "Até 100 produtos",
+        "templates": "Templates premium",
+        "mobileOptimized": "Otimizado para mobile",
+        "advancedSeo": "Ferramentas SEO avançadas",
+        "customDomain": "Domínio personalizado",
+        "noAds": "Sem anúncios ou marca",
+        "analytics": "Análise de vendas e tráfego",
+        "customerSupport": "Suporte prioritário"
+      }
+    },
+    "business": {
+      "name": "Business",
+      "description": "Para negócios em crescimento",
+      "price": "$29.99",
+      "period": "/mês",
+      "button": "Contatar vendas",
+      "features": {
+        "everything": "Tudo do plano Pro",
+        "multipleStores": "Múltiplas lojas",
+        "prioritySupport": "Suporte dedicado",
+        "advancedAnalytics": "Análise de negócios avançada",
+        "apiAccess": "Acesso à API",
+        "customBranding": "Marca personalizada",
+        "multipleUsers": "Múltiplas contas de usuário",
+        "marketingTools": "Ferramentas de marketing",
+        "integrations": "Integrações avançadas"
+      }
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Perguntas comuns sobre nossos planos e preços",
+    "questions": {
+      "1": {
+        "question": "Posso mudar meu plano depois?",
+        "answer": "Sim, você pode mudar seu plano a qualquer momento. Ao atualizar, você terá acesso imediato aos novos recursos. Ao fazer downgrade, as alterações entrarão em vigor no final do seu ciclo de faturamento."
+      },
+      "2": {
+        "question": "Existe taxa de configuração?",
+        "answer": "Não, não há taxas de configuração para nenhum de nossos planos. Você paga apenas o custo da assinatura mensal."
+      },
+      "3": {
+        "question": "Vocês oferecem reembolso?",
+        "answer": "Oferecemos garantia de devolução do dinheiro de 14 dias para todos os planos pagos. Se você não estiver satisfeito, entre em contato conosco dentro dos primeiros 14 dias para um reembolso total."
+      },
+      "4": {
+        "question": "Quais métodos de pagamento vocês aceitam?",
+        "answer": "Aceitamos todos os principais cartões de crédito (Visa, Mastercard, American Express) e PayPal. Para planos Business, podemos organizar outros métodos de pagamento."
+      },
+      "5": {
+        "question": "Existem contratos de longo prazo?",
+        "answer": "Não, todos os nossos planos são mensais sem compromisso de longo prazo. Você pode cancelar a qualquer momento."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Compare todos os recursos",
+    "subtitle": "Veja qual plano é adequado para seu negócio",
+    "featureColumn": "Recurso",
+    "rows": {
+      "1": {
+        "feature": "Número de produtos",
+        "free": "10",
+        "pro": "100",
+        "business": "Ilimitado"
+      },
+      "2": {
+        "feature": "Armazenamento",
+        "free": "500MB",
+        "pro": "5GB",
+        "business": "50GB"
+      },
+      "3": {
+        "feature": "Banda mensal",
+        "free": "1GB",
+        "pro": "10GB",
+        "business": "Ilimitado"
+      },
+      "4": {
+        "feature": "Domínio personalizado",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "5": {
+        "feature": "Pagamentos online",
+        "free": "2.9% + 30¢",
+        "pro": "2.5% + 30¢",
+        "business": "2.2% + 30¢"
+      },
+      "6": {
+        "feature": "Contas de equipe",
+        "free": "1",
+        "pro": "3",
+        "business": "10+"
+      },
+      "7": {
+        "feature": "Suporte 24/7",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "8": {
+        "feature": "Painel de análise",
+        "free": "Básico",
+        "pro": "Avançado",
+        "business": "Personalizado"
+      },
+      "9": {
+        "feature": "Templates premium",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "10": {
+        "feature": "Remover marca bzz.one",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para começar?",
+    "subtitle": "Junte-se a milhares de pequenas empresas construindo sua presença online com bzz.one",
+    "button": "Começar grátis"
+  }
+}

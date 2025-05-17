@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "Início",
+    "features": "Recursos",
+    "pricing": "Preços",
+    "faq": "FAQ",
+    "contact": "Contato",
+    "loginButton": "Entrar"
+  },
+  "footer": {
+    "description": "bzz.one ajuda vendedores locais, pequenas empresas e lojas de rua a lançar sua presença online em apenas 2 cliques.",
+    "navigation": "Navegação",
+    "connect": "Conectar",
+    "contactUs": "Fale Conosco",
+    "newsletterTitle": "Assine nossa newsletter",
+    "allRightsReserved": "Todos os direitos reservados.",
+    "terms": "Termos e Condições",
+    "privacy": "Política de Privacidade"
+  },
+  "newsletter": {
+    "emailPlaceholder": "Seu endereço de e-mail",
+    "subscribe": "Assinar",
+    "subscribing": "Assinando...",
+    "subscribed": "Assinado!",
+    "error": "Ops! Algo deu errado. Por favor, tente novamente.",
+    "success": "Obrigado por assinar nossa newsletter!"
+  },
+  "map": {
+    "error": "Erro ao carregar o mapa",
+    "placeholderTitle": "Exemplos de Locais de Pequenos Negócios",
+    "placeholderText": "Este mapa mostraria exemplos de negócios usando nossa plataforma. Isto é apenas uma demonstração."
+  }
+}

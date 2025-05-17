@@ -1,0 +1,165 @@
+{
+  "hero": {
+    "title": "Des tarifs simples et transparents",
+    "subtitle": "Des forfaits qui grandissent avec votre entreprise, sans surprises"
+  },
+  "pricing": {
+    "title": "Choisissez le forfait qui vous convient",
+    "subtitle": "Des petites boutiques aux entreprises en pleine croissance, nous avons un forfait pour tous"
+  },
+  "popularPlan": "Le plus populaire",
+  "plans": {
+    "free": {
+      "name": "Gratuit",
+      "description": "Parfait pour commencer",
+      "price": "0€",
+      "period": "/mois",
+      "button": "Commencer gratuitement",
+      "features": {
+        "storeBuilder": "Créateur de boutique facile",
+        "products": "Jusqu'à 10 produits",
+        "templates": "Modèles de base",
+        "mobileOptimized": "Optimisé pour mobile",
+        "basicSeo": "SEO de base",
+        "bzzDomain": "Domaine .bzz.one gratuit",
+        "ads": "Marque & pubs bzz.one",
+        "customDomain": "Domaine personnalisé",
+        "analytics": "Analytiques avancées"
+      }
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Idéal pour les petites entreprises",
+      "price": "9,99€",
+      "period": "/mois",
+      "button": "Commencer",
+      "features": {
+        "storeBuilder": "Créateur de boutique avancé",
+        "products": "Jusqu'à 100 produits",
+        "templates": "Modèles premium",
+        "mobileOptimized": "Optimisé pour mobile",
+        "advancedSeo": "Outils SEO avancés",
+        "customDomain": "Domaine personnalisé",
+        "noAds": "Pas de pubs ni de marque",
+        "analytics": "Analytiques des ventes et du trafic",
+        "customerSupport": "Support client prioritaire"
+      }
+    },
+    "business": {
+      "name": "Business",
+      "description": "Pour les entreprises en croissance",
+      "price": "29,99€",
+      "period": "/mois",
+      "button": "Contacter les ventes",
+      "features": {
+        "everything": "Tout ce qui est dans le forfait Pro",
+        "multipleStores": "Boutiques multiples",
+        "prioritySupport": "Support dédié",
+        "advancedAnalytics": "Analytiques d'entreprise avancées",
+        "apiAccess": "Accès API",
+        "customBranding": "Marque personnalisée",
+        "multipleUsers": "Comptes utilisateurs multiples",
+        "marketingTools": "Outils marketing",
+        "integrations": "Intégrations avancées"
+      }
+    }
+  },
+  "faq": {
+    "title": "Foire Aux Questions",
+    "subtitle": "Questions courantes sur nos forfaits et tarifs",
+    "questions": {
+      "1": {
+        "question": "Puis-je passer à un forfait supérieur ou inférieur plus tard ?",
+        "answer": "Oui, vous pouvez changer de forfait à tout moment. Lors d'une mise à niveau, vous aurez immédiatement accès aux nouvelles fonctionnalités. Lors d'un passage à un forfait inférieur, les changements prendront effet à la fin de votre cycle de facturation."
+      },
+      "2": {
+        "question": "Y a-t-il des frais de configuration ?",
+        "answer": "Non, il n'y a pas de frais de configuration pour aucun de nos forfaits. Vous ne payez que le coût mensuel de l'abonnement."
+      },
+      "3": {
+        "question": "Offrez-vous des remboursements ?",
+        "answer": "Nous offrons une garantie de remboursement de 14 jours pour tous les forfaits payants. Si vous n'êtes pas satisfait, contactez-nous dans les 14 premiers jours pour un remboursement complet."
+      },
+      "4": {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons toutes les principales cartes de crédit (Visa, Mastercard, American Express) et PayPal. Pour les forfaits Business, nous pouvons également organiser d'autres modes de paiement."
+      },
+      "5": {
+        "question": "Y a-t-il des contrats à long terme ?",
+        "answer": "Non, tous nos forfaits sont mensuels sans engagement à long terme. Vous pouvez annuler à tout moment."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Comparez toutes les fonctionnalités",
+    "subtitle": "Voyez quel forfait convient à votre entreprise",
+    "featureColumn": "Fonctionnalité",
+    "rows": {
+      "1": {
+        "feature": "Nombre de produits",
+        "free": "10",
+        "pro": "100",
+        "business": "Illimité"
+      },
+      "2": {
+        "feature": "Stockage",
+        "free": "500Mo",
+        "pro": "5Go",
+        "business": "50Go"
+      },
+      "3": {
+        "feature": "Bande passante mensuelle",
+        "free": "1Go",
+        "pro": "10Go",
+        "business": "Illimitée"
+      },
+      "4": {
+        "feature": "Domaine personnalisé",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "5": {
+        "feature": "Paiements en ligne",
+        "free": "2,9% + 0,30€",
+        "pro": "2,5% + 0,30€",
+        "business": "2,2% + 0,30€"
+      },
+      "6": {
+        "feature": "Comptes personnel multiples",
+        "free": "1",
+        "pro": "3",
+        "business": "10+"
+      },
+      "7": {
+        "feature": "Support 24/7",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "8": {
+        "feature": "Tableau de bord analytique",
+        "free": "Basique",
+        "pro": "Avancé",
+        "business": "Personnalisé"
+      },
+      "9": {
+        "feature": "Modèles premium",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "10": {
+        "feature": "Supprimer la marque bzz.one",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Rejoignez des milliers de petites entreprises qui construisent leur présence en ligne avec bzz.one",
+    "button": "Commencer gratuitement"
+  }
+}

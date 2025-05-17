@@ -1,0 +1,165 @@
+{
+  "hero": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "Plans that grow with your business, no surprises"
+  },
+  "pricing": {
+    "title": "Choose the plan that's right for you",
+    "subtitle": "From small shops to growing businesses, we have a plan for everyone"
+  },
+  "popularPlan": "Most Popular",
+  "plans": {
+    "free": {
+      "name": "Free",
+      "description": "Perfect for getting started",
+      "price": "$0",
+      "period": "/month",
+      "button": "Start for free",
+      "features": {
+        "storeBuilder": "Easy store builder",
+        "products": "Up to 10 products",
+        "templates": "Basic templates",
+        "mobileOptimized": "Mobile optimized",
+        "basicSeo": "Basic SEO",
+        "bzzDomain": "Free .bzz.one domain",
+        "ads": "bzz.one branding & ads",
+        "customDomain": "Custom domain",
+        "analytics": "Advanced analytics"
+      }
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Best for small businesses",
+      "price": "$9.99",
+      "period": "/month",
+      "button": "Get started",
+      "features": {
+        "storeBuilder": "Advanced store builder",
+        "products": "Up to 100 products",
+        "templates": "Premium templates",
+        "mobileOptimized": "Mobile optimized",
+        "advancedSeo": "Advanced SEO tools",
+        "customDomain": "Custom domain",
+        "noAds": "No ads or branding",
+        "analytics": "Sales & traffic analytics",
+        "customerSupport": "Priority customer support"
+      }
+    },
+    "business": {
+      "name": "Business",
+      "description": "For growing businesses",
+      "price": "$29.99",
+      "period": "/month",
+      "button": "Contact sales",
+      "features": {
+        "everything": "Everything in Pro plan",
+        "multipleStores": "Multiple stores",
+        "prioritySupport": "Dedicated support",
+        "advancedAnalytics": "Advanced business analytics",
+        "apiAccess": "API access",
+        "customBranding": "Custom branding",
+        "multipleUsers": "Multiple user accounts",
+        "marketingTools": "Marketing tools",
+        "integrations": "Advanced integrations"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about our plans and pricing",
+    "questions": {
+      "1": {
+        "question": "Can I upgrade or downgrade my plan later?",
+        "answer": "Yes, you can change your plan at any time. When upgrading, you'll get immediate access to the new features. When downgrading, the changes will take effect at the end of your billing cycle."
+      },
+      "2": {
+        "question": "Is there a setup fee?",
+        "answer": "No, there are no setup fees for any of our plans. You only pay the monthly subscription cost."
+      },
+      "3": {
+        "question": "Do you offer refunds?",
+        "answer": "We offer a 14-day money-back guarantee for all paid plans. If you're not satisfied, contact us within the first 14 days for a full refund."
+      },
+      "4": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards (Visa, Mastercard, American Express) and PayPal. For Business plans, we can also arrange other payment methods."
+      },
+      "5": {
+        "question": "Are there any long-term contracts?",
+        "answer": "No, all our plans are month-to-month with no long-term commitment. You can cancel anytime."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Compare all features",
+    "subtitle": "See which plan is right for your business",
+    "featureColumn": "Feature",
+    "rows": {
+      "1": {
+        "feature": "Number of products",
+        "free": "10",
+        "pro": "100",
+        "business": "Unlimited"
+      },
+      "2": {
+        "feature": "Storage",
+        "free": "500MB",
+        "pro": "5GB",
+        "business": "50GB"
+      },
+      "3": {
+        "feature": "Monthly bandwidth",
+        "free": "1GB",
+        "pro": "10GB",
+        "business": "Unlimited"
+      },
+      "4": {
+        "feature": "Custom domain",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "5": {
+        "feature": "Online payments",
+        "free": "2.9% + 30¢",
+        "pro": "2.5% + 30¢",
+        "business": "2.2% + 30¢"
+      },
+      "6": {
+        "feature": "Multiple staff accounts",
+        "free": "1",
+        "pro": "3",
+        "business": "10+"
+      },
+      "7": {
+        "feature": "24/7 support",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "8": {
+        "feature": "Analytics dashboard",
+        "free": "Basic",
+        "pro": "Advanced",
+        "business": "Custom"
+      },
+      "9": {
+        "feature": "Premium templates",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      },
+      "10": {
+        "feature": "Remove bzz.one branding",
+        "free": "false",
+        "pro": "true",
+        "business": "true"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Join thousands of small businesses building their online presence with bzz.one",
+    "button": "Start for free"
+  }
+}
