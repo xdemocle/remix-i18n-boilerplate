@@ -50,7 +50,7 @@ export default function Header() {
           </div>
           <span className="text-2xl font-display font-bold truncate">
             <span className={isScrolled ? 'text-neutral-900' : 'text-shadow-xs text-white'}>
-              i18n-boilerplate
+              i18n-boiler
             </span>
           </span>
         </Link>
