@@ -8,7 +8,8 @@ export default {
     try {
       if (!serverBuild) {
         // Load the server build on first request
-        // @ts-expect-error import/no-unresolved
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         // eslint-disable-next-line import/no-unresolved
         const build = await import('../build/server/index.js');
         serverBuild = build as unknown as ServerBuild;

@@ -1,5 +1,5 @@
 import type { EntryContext } from '@remix-run/cloudflare';
-import { RemixServer } from '@remix-run/react/dist/server';
+import { RemixServer } from '@remix-run/react';
 import { isbot } from 'isbot';
 import { renderToReadableStream } from 'react-dom/server';
 import { I18nextProvider } from 'react-i18next';
