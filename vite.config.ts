@@ -33,6 +33,7 @@ export default defineConfig({
       getLoadContext,
     }),
     remix({
+      buildDirectory: 'dist',
       ignoredRouteFiles: ['**/*.css'],
       ssr: true,
       future: {
