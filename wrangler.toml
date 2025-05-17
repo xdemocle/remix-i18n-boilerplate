@@ -1,7 +1,7 @@
 #:schema node_modules/wrangler/config-schema.json
 name = "remix-i18n-boilerplate-remix-cloudflare-workers"
-main = "./workers/server.ts"
-# workers_dev = true
+main = "./workers/app.ts"
+workers_dev = true
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
 compatibility_date = "2025-05-05"
 compatibility_flags = ["nodejs_compat"]
