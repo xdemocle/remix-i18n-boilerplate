@@ -1,6 +1,5 @@
 import { Link } from '@remix-run/react';
 import { useTranslation } from 'react-i18next';
-import NewsletterForm from '../forms/newsletter-form';
 
 export default function Footer() {
   const { t } = useTranslation('common');
@@ -37,11 +36,6 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-neutral-400 mb-6 max-w-md">{t('footer.description')}</p>
-
-            <div className="mb-8">
-              <h4 className="text-white font-bold mb-4">{t('footer.newsletterTitle')}</h4>
-              <NewsletterForm />
-            </div>
           </div>
 
           <div>
