@@ -1,5 +1,6 @@
 import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
 import { useTranslation } from 'react-i18next';
+import { BackgroundSlider } from '~/components/ui/background-slider';
 import { CtaButton } from '~/components/ui/cta-button';
 import { MainLayout } from '~/components/layout/main-layout';
 import { AnimatedSection } from '~/components/ui/animated-section';
@@ -118,11 +119,24 @@ export default function FAQ() {
   return (
     <MainLayout>
       {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-br from-primary-500 to-primary-700">
-        <div className="container mx-auto px-4">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-700 z-0">
+          <BackgroundSlider
+            images={[
+              '/assets/images/daiga-ellaby-YnNczu62rdk-unsplash.jpg',
+              '/assets/images/jason-leung-v9NklNa26GU-unsplash.jpg',
+              '/assets/images/marek-piwnicki-3f22ob_rtnA-unsplash.jpg',
+              '/assets/images/wietse-jongsma-K_GLVR6O1ME-unsplash.jpg',
+              '/assets/images/zetong-li-aCusqffy5sY-unsplash.jpg'
+            ]}
+            interval={6000}
+            className="z-0"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-white text-4xl md:text-5xl font-bold mb-6">{t('hero.title')}</h1>
-            <p className="text-primary-50 text-xl mb-8">{t('hero.subtitle')}</p>
+            <h1 className="text-white text-4xl md:text-5xl font-bold mb-6 text-shadow-sm">{t('hero.title')}</h1>
+            <p className="text-white text-xl mb-8 text-shadow-sm">{t('hero.subtitle')}</p>
           </div>
         </div>
       </section>
