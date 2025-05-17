@@ -1,7 +1,5 @@
 import { createRequestHandler } from '@remix-run/cloudflare';
 import type { ServerBuild } from '@remix-run/cloudflare';
-// Import the server build directly
-import * as build from '../build/server/index.js';
 
 declare module '@remix-run/cloudflare' {
   export interface AppLoadContext {
@@ -12,13 +10,24 @@ declare module '@remix-run/cloudflare' {
   }
 }
 
-// Create the request handler with the direct import
-const handleRequest = createRequestHandler(build as unknown as ServerBuild, import.meta.env.MODE);
-
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext) {
-    return handleRequest(request, {
-      cloudflare: { env, ctx },
-    });
+    try {
+      // Dynamically import the server build
+      const build = await import('../build/server/index.js');
+      
+      // Create the request handler with the imported build
+      const handleRequest = createRequestHandler(
+        build as unknown as ServerBuild,
+        process.env.NODE_ENV || 'development'
+      );
+
+      return await handleRequest(request, {
+        cloudflare: { env, ctx },
+      });
+    } catch (error) {
+      console.error('Error handling request:', error);
+      return new Response('Internal Server Error', { status: 500 });
+    }
   },
 } satisfies ExportedHandler<Env>;
