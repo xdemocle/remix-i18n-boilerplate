@@ -1,6 +1,6 @@
 {
   "name": "remix-i18n-boilerplate",
-  "version": "0.0.1",
+  "version": "0.5.5",
   "sideEffects": false,
   "type": "module",
   "scripts": {

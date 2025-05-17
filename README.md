@@ -62,7 +62,7 @@ Your application will be available at `http://localhost:3000`.
 Preview the production build locally:
 
 ```bash
-pnpm run preview
+pnpm run start
 ```
 
 ## Building for Production
@@ -106,7 +106,7 @@ This will build your Remix application and deploy it to Cloudflare Workers. You 
 
 - `pnpm run dev` - Start the development server
 - `pnpm run build` - Build the application
-- `pnpm run preview` - Preview the built application locally
+- `pnpm run start` - Preview the built application locally
 
 ## Styling
 
