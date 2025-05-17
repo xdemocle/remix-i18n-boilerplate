@@ -1,7 +1,8 @@
-import type { LinksFunction, LoaderFunctionArgs } from '@remix-run/cloudflare';
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
+import { LinksFunction } from '@remix-run/react/dist/routeModules';
 import { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
+import { LoaderFunctionArgs } from 'react-router';
 import remixI18Next from '~/i18n/i18next.server';
 import './tailwind.css';
 

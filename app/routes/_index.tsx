@@ -1,6 +1,7 @@
-import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
+import { MetaFunction } from '@remix-run/react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { LoaderFunctionArgs } from 'react-router';
 import { BackgroundSlider } from '~/components/ui/background-slider';
 import { CtaButton } from '~/components/ui/cta-button';
 import remixI18Next from '~/i18n/i18next.server';

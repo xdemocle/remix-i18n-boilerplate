@@ -1,9 +1,10 @@
-import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
+import { MetaFunction } from '@remix-run/react';
 import { useTranslation } from 'react-i18next';
-import { BackgroundSlider } from '~/components/ui/background-slider';
-import { CtaButton } from '~/components/ui/cta-button';
+import { LoaderFunctionArgs } from 'react-router';
 import { MainLayout } from '~/components/layout/main-layout';
 import { AnimatedSection } from '~/components/ui/animated-section';
+import { BackgroundSlider } from '~/components/ui/background-slider';
+import { CtaButton } from '~/components/ui/cta-button';
 import { FAQAccordion } from '~/components/ui/faq-accordion';
 import remixI18Next from '~/i18n/i18next.server';
 
@@ -127,7 +128,7 @@ export default function FAQ() {
               '/assets/images/jason-leung-v9NklNa26GU-unsplash.jpg',
               '/assets/images/marek-piwnicki-3f22ob_rtnA-unsplash.jpg',
               '/assets/images/wietse-jongsma-K_GLVR6O1ME-unsplash.jpg',
-              '/assets/images/zetong-li-aCusqffy5sY-unsplash.jpg'
+              '/assets/images/zetong-li-aCusqffy5sY-unsplash.jpg',
             ]}
             interval={6000}
             className="z-0"
@@ -135,7 +136,9 @@ export default function FAQ() {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-white text-4xl md:text-5xl font-bold mb-6 text-shadow-sm">{t('hero.title')}</h1>
+            <h1 className="text-white text-4xl md:text-5xl font-bold mb-6 text-shadow-sm">
+              {t('hero.title')}
+            </h1>
             <p className="text-white text-xl mb-8 text-shadow-sm">{t('hero.subtitle')}</p>
           </div>
         </div>
@@ -193,20 +196,10 @@ export default function FAQ() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('cta.title')}</h2>
               <p className="text-neutral-600 mb-8 text-lg">{t('cta.subtitle')}</p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <CtaButton
-                  variant="cta"
-                  size="lg"
-                  rounded="full"
-                  to="/contact"
-                >
+                <CtaButton variant="cta" size="lg" rounded="full" to="/contact">
                   {t('cta.contactButton')}
                 </CtaButton>
-                <CtaButton
-                  variant="outline"
-                  size="lg"
-                  rounded="full"
-                  to="/signup"
-                >
+                <CtaButton variant="outline" size="lg" rounded="full" to="/signup">
                   {t('cta.startButton')}
                 </CtaButton>
               </div>

@@ -1,5 +1,5 @@
-import type { EntryContext } from '@remix-run/cloudflare';
 import { RemixServer } from '@remix-run/react';
+import { EntryContext } from '@remix-run/react/dist/entry';
 import { isbot } from 'isbot';
 import { renderToReadableStream } from 'react-dom/server';
 import { I18nextProvider } from 'react-i18next';
@@ -45,13 +45,10 @@ const handleRequest = async (
     });
   } catch (error) {
     console.error('Fatal rendering error:', error);
-    return new Response(
-      '<!DOCTYPE html><html><body><h1>Internal Server Error</h1></body></html>',
-      {
-        status: 500,
-        headers: { 'Content-Type': 'text/html' },
-      }
-    );
+    return new Response('<!DOCTYPE html><html><body><h1>Internal Server Error</h1></body></html>', {
+      status: 500,
+      headers: { 'Content-Type': 'text/html' },
+    });
   }
 };
 
