@@ -3,7 +3,7 @@ import { createRequestHandler } from 'react-router';
 const requestHandler = createRequestHandler(
   // @ts-expect-error not existent
   () => import('../dist/server/index.js'),
-  import.meta.env.MODE
+  process.env.NODE_ENV !== 'production' ? 'development' : 'production'
 );
 
 export default {
