@@ -1,24 +1,21 @@
-import { createRequestHandler } from '@remix-run/cloudflare';
-import type { ServerBuild } from '@remix-run/cloudflare';
+import { createRequestHandler, type ServerBuild } from '@remix-run/cloudflare';
 
-declare module '@remix-run/cloudflare' {
-  export interface AppLoadContext {
-    cloudflare: {
-      env: Env;
-      ctx: ExecutionContext;
-    };
-  }
-}
+// We need to import the server build asynchronously to avoid global scope issues
+let serverBuild: ServerBuild | undefined;
 
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext) {
     try {
-      // Dynamically import the server build
-      const build = await import('../build/server/index.js');
-      
-      // Create the request handler with the imported build
+      if (!serverBuild) {
+        // Load the server build on first request
+        // @ts-expect-error import/no-unresolved
+        // eslint-disable-next-line import/no-unresolved
+        const build = await import('../build/server/index.js');
+        serverBuild = build as unknown as ServerBuild;
+      }
+
       const handleRequest = createRequestHandler(
-        build as unknown as ServerBuild,
+        serverBuild,
         process.env.NODE_ENV || 'development'
       );
 
