@@ -14,5 +14,4 @@ dist/
 
 .cache
 .env
-pnpm-workspace.yaml
 .windsurfrules*
