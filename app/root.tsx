@@ -45,7 +45,7 @@ export default function Root() {
         <Meta />
         <Links />
       </head>
-      <body className={i18n.dir(i18n.language)} suppressHydrationWarning={true}>
+      <body className={i18n.dir(locale)} suppressHydrationWarning={true}>
         <div className="flex min-h-screen flex-col">
           <Suspense fallback={<div>Loading...</div>}>
             <Outlet />
