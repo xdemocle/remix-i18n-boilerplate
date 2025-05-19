@@ -114,7 +114,6 @@ export default function FAQ() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-700 z-0">
           <BackgroundSlider
             images={[
-              '/assets/images/daiga-ellaby-YnNczu62rdk-unsplash.jpg',
               '/assets/images/jason-leung-v9NklNa26GU-unsplash.jpg',
               '/assets/images/marek-piwnicki-3f22ob_rtnA-unsplash.jpg',
               '/assets/images/wietse-jongsma-K_GLVR6O1ME-unsplash.jpg',
