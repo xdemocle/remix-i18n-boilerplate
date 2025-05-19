@@ -35,9 +35,6 @@ importers:
       i18next-browser-languagedetector:
         specifier: ^8.1.0
         version: 8.1.0
-      i18next-fetch-backend:
-        specifier: ^6.0.0
-        version: 6.0.0
       i18next-http-backend:
         specifier: ^3.0.2
         version: 3.0.2
@@ -68,9 +65,6 @@ importers:
       react-router-dom:
         specifier: ^7.6.0
         version: 7.6.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      remix-i18next:
-        specifier: ^7.2.1
-        version: 7.2.1(i18next@25.1.3(typescript@5.8.3))(react-i18next@15.5.1(i18next@25.1.3(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(react-router@7.6.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
       shadcn:
         specifier: ^2.5.0
         version: 2.5.0(@types/node@22.15.18)(typescript@5.8.3)
@@ -2895,10 +2889,6 @@ packages:
   i18next-browser-languagedetector@8.1.0:
     resolution: {integrity: sha512-mHZxNx1Lq09xt5kCauZ/4bsXOEA2pfpwSoU11/QTJB+pD94iONFwp+ohqi///PwiFvjFOxe1akYCdHyFo1ng5Q==}
 
-  i18next-fetch-backend@6.0.0:
-    resolution: {integrity: sha512-kVqnydqLVMZfVlOuP2nf71cREydlxEKLH43jUXAFdOku/GF+6b9fBg31anoos5XncdhdtiYgL9fheqMrtXRwng==}
-    engines: {node: '>=18'}
-
   i18next-http-backend@3.0.2:
     resolution: {integrity: sha512-PdlvPnvIp4E1sYi46Ik4tBYh/v/NbYfFFgTjkwFl0is8A18s7/bx9aXqsrOax9WUbeNS6mD2oix7Z0yGGf6m5g==}
 
@@ -4210,15 +4200,6 @@ packages:
 
   remark-rehype@10.1.0:
     resolution: {integrity: sha512-EFmR5zppdBp0WQeDVZ/b66CWJipB2q2VLNFMabzDSGR66Z2fQii83G5gTBbgGEnEEA0QRussvrFHxk1HWGJskw==}
-
-  remix-i18next@7.2.1:
-    resolution: {integrity: sha512-zjyDEOtSw2yF31tNHP6RLr7LZl1kEdZ3j3EpzB8905JNg4HsUk+6bNVrWhq8fFfacT6sPK0eH//NrYbpAI7bzw==}
-    engines: {node: '>=20.0.0'}
-    peerDependencies:
-      i18next: ^24.0.0 || ^25.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-i18next: ^13.0.0 || ^14.0.0 || ^15.0.0
-      react-router: ^7.0.0
 
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -8099,8 +8080,6 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.27.1
 
-  i18next-fetch-backend@6.0.0: {}
-
   i18next-http-backend@3.0.2:
     dependencies:
       cross-fetch: 4.0.0
@@ -9556,13 +9535,6 @@ snapshots:
       '@types/mdast': 3.0.15
       mdast-util-to-hast: 12.3.0
       unified: 10.1.2
-
-  remix-i18next@7.2.1(i18next@25.1.3(typescript@5.8.3))(react-i18next@15.5.1(i18next@25.1.3(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(react-router@7.6.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
-    dependencies:
-      i18next: 25.1.3(typescript@5.8.3)
-      react: 19.1.0
-      react-i18next: 15.5.1(i18next@25.1.3(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
-      react-router: 7.6.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
   require-directory@2.1.1: {}
 

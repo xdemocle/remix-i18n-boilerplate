@@ -21,6 +21,7 @@ export default function LanguageSwitcher({ isScrolled }: LanguageSwitcherProps) 
     }
 
     document.addEventListener('mousedown', handleClickOutside);
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
@@ -35,12 +36,14 @@ export default function LanguageSwitcher({ isScrolled }: LanguageSwitcherProps) 
 
   const handleLanguageChange = (languageCode: string) => {
     const formData = new FormData();
-    formData.append('locale', languageCode);
+    formData.append('lng', languageCode);
 
     // Keep current path and any other query params
     const url = new URL(window.location.href);
     const searchParams = new URLSearchParams(url.search);
-    searchParams.set('locale', languageCode);
+    searchParams.set('lng', languageCode);
+
+    i18n.changeLanguage(languageCode);
 
     submit(formData, { method: 'get', action: `${location.pathname}?${searchParams.toString()}` });
     setIsOpen(false);

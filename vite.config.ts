@@ -26,7 +26,6 @@ export default defineConfig({
   // Remix handles its own HMR through its plugin
   server: {
     hmr: true,
-    port: 3000,
   },
   plugins: [
     cloudflareDevProxyVitePlugin({

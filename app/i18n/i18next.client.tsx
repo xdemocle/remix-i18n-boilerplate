@@ -2,7 +2,7 @@ import i18next from 'i18next';
 import I18nextBrowserLanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 import { initReactI18next } from 'react-i18next';
-import { baseConfig, clientConfig, detectionConfig, namespaces, fallbackLng, defaultNS } from './i18n.config';
+import { baseConfig, clientConfig, detectionConfig, fallbackLng, defaultNS } from './i18n.config';
 
 // Use HTTP backend for client-side
 const backend = HttpBackend;
@@ -24,27 +24,26 @@ export async function initializeI18n() {
     // Initialize with basic configuration first
     await instance
       .use(initReactI18next)
-      .use(backend)
       .use(I18nextBrowserLanguageDetector)
+      .use(backend)
       .init({
         ...baseConfig,
         ...clientConfig,
         detection: detectionConfig,
-        // Ensure resources are loaded
-        initImmediate: false,
       });
 
     // Load initial translations
-    const currentLang = instance.language || 'en';
-    await Promise.all(
-      namespaces.map((ns: string) =>
-        instance.loadNamespaces(ns).then(() => {
-          console.debug(`Loaded namespace ${ns} for language ${currentLang}`);
-        })
-      )
-    );
+    // const currentLang = instance.language || 'en';
 
-    console.log('i18next initialization complete');
+    // await Promise.all(
+    //   namespaces.map((ns: string) =>
+    //     instance.loadNamespaces(ns).then(() => {
+    //       console.debug(`Loaded namespace ${ns} for language ${currentLang}`);
+    //     })
+    //   )
+    // );
+
+    console.debug('i18next initialization complete');
     return instance;
   } catch (error) {
     console.error('Failed to initialize i18next:', error);

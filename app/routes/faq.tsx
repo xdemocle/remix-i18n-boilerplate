@@ -1,11 +1,10 @@
-import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
+import type { MetaFunction } from '@remix-run/cloudflare';
 import { useTranslation } from 'react-i18next';
 import { MainLayout } from '~/components/layout/main-layout';
 import { AnimatedSection } from '~/components/ui/animated-section';
 import { BackgroundSlider } from '~/components/ui/background-slider';
 import { CtaButton } from '~/components/ui/cta-button';
 import { FAQAccordion } from '~/components/ui/faq-accordion';
-import remixI18Next from '~/i18n/i18next.server';
 
 export const meta: MetaFunction = () => {
   return [
@@ -17,14 +16,6 @@ export const meta: MetaFunction = () => {
     },
   ];
 };
-
-export async function loader({ request }: LoaderFunctionArgs) {
-  const locale = remixI18Next.getLocale(request);
-
-  return {
-    locale,
-  };
-}
 
 export default function FAQ() {
   const { t } = useTranslation('faq');

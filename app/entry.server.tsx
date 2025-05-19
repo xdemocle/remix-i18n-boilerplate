@@ -3,7 +3,7 @@ import { EntryContext } from '@remix-run/react/dist/entry';
 import { isbot } from 'isbot';
 import { renderToReadableStream } from 'react-dom/server';
 import { I18nextProvider } from 'react-i18next';
-import { i18n } from './i18n/i18next.server';
+import { initI18n } from './i18n/i18next.server';
 
 const handleRequest = async (
   request: Request,
@@ -11,11 +11,12 @@ const handleRequest = async (
   responseHeaders: Headers,
   entryContext: EntryContext
 ) => {
-  let didError = false;
-
   // Initialize i18next for this request
+  const i18n = initI18n(request);
   const userAgent = request.headers.get('user-agent');
   const isBot = userAgent && isbot(userAgent);
+
+  let didError = false;
 
   try {
     const stream = await renderToReadableStream(

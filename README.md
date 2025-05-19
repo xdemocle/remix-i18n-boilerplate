@@ -1,6 +1,6 @@
 # remix-i18n-boilerplate
 
-Full-Stack boilerplate with latest Remix.run 2.16.6 version | remix-i18next v7 | react-router v7 | react: v18
+Full-Stack boilerplate with latest Remix.run 2.16.6 version | react-router v7 | react: v18
 
 A production-ready template for building full-stack React applications using Remix and React Router v7.
 

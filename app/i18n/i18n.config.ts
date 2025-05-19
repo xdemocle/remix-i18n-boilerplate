@@ -14,7 +14,7 @@ const baseConfig: InitOptions = {
   fallbackLng,
   supportedLngs: [...locales],
   ns: [...namespaces],
-  preload: ['en'],
+  preload: [fallbackLng],
   load: 'languageOnly',
   debug,
   // Ensure fallback works correctly
@@ -37,11 +37,11 @@ const baseConfig: InitOptions = {
 
 // Language detection options
 export const detectionConfig: InitOptions['detection'] = {
-  order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
-  caches: ['cookie', 'localStorage'],
+  caches: debug ? undefined : [fallbackLng],
   lookupQuerystring: 'lng',
-  lookupCookie: 'i18next',
   lookupLocalStorage: 'i18nextLng',
+  lookupSessionStorage: 'i18nextLng',
+  order: ['querystring', 'cookie', 'navigator', 'htmlTag'],
 };
 
 // Export the base configuration for extension
@@ -52,8 +52,6 @@ export const clientConfig: Partial<InitOptions> = {
   // React-specific options
   react: {
     useSuspense: false,
-    bindI18n: 'languageChanged loaded',
-    bindI18nStore: 'added removed',
   },
 
   // Client backend configuration
@@ -75,6 +73,7 @@ export const serverConfig: Partial<InitOptions> = {
   backend: {
     loadPath: '/locales/{{lng}}/{{ns}}.json',
   },
+  initAsync: false,
 };
 
 // Default export includes client-side defaults

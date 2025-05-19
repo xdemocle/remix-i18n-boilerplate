@@ -1,9 +1,8 @@
-import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare';
+import type { MetaFunction } from '@remix-run/cloudflare';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { BackgroundSlider } from '~/components/ui/background-slider';
 import { CtaButton } from '~/components/ui/cta-button';
-import remixI18Next from '~/i18n/i18next.server';
 import { MainLayout } from '../components/layout/main-layout';
 import { AnimatedSection } from '../components/ui/animated-section';
 import { FeatureCard } from '../components/ui/feature-card';
@@ -18,14 +17,6 @@ export const meta: MetaFunction = () => {
     },
   ];
 };
-
-export async function loader({ request }: LoaderFunctionArgs) {
-  const locale = remixI18Next.getLocale(request);
-
-  return {
-    locale,
-  };
-}
 
 export default function Index() {
   const { t } = useTranslation('home');

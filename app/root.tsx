@@ -1,9 +1,9 @@
-import { Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
+import { LoaderFunctionArgs } from '@remix-run/cloudflare';
+import { Links, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData } from '@remix-run/react';
 import { LinksFunction } from '@remix-run/react/dist/routeModules';
 import { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-import { LoaderFunctionArgs } from 'react-router';
-import remixI18Next from '~/i18n/i18next.server';
+import { initI18n } from '~/i18n/i18next.server';
 import './tailwind.css';
 
 export const links: LinksFunction = () => [
@@ -20,30 +20,34 @@ export const links: LinksFunction = () => [
 ];
 
 export async function loader({ request }: LoaderFunctionArgs) {
-  const locale = await remixI18Next.getLocale(request);
+  const i18n = initI18n(request);
+  const locale = i18n.language;
 
-  return Response.json({
+  // console.log('resolvedLanguage', i18n.resolvedLanguage);
+  // console.log('language', i18n.language);
+  // console.log('isInitialized', i18n.isInitialized);
+
+  return {
     locale,
-  });
+  };
 }
 
 export default function Root() {
   const { i18n } = useTranslation();
+  const { locale } = useLoaderData<typeof loader>();
 
   return (
-    <html lang={i18n.language} dir={i18n.dir(i18n.language)} suppressHydrationWarning={true}>
+    <html lang={locale} dir={i18n.dir(locale)} suppressHydrationWarning={true}>
       <head>
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content="My beautiful React app" />
         <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
         <Meta />
         <Links />
-        <title>My React App</title>
       </head>
       <body className={i18n.dir(i18n.language)} suppressHydrationWarning={true}>
         <div className="flex min-h-screen flex-col">
