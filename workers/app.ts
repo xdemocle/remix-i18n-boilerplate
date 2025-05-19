@@ -10,7 +10,7 @@ export default {
       const build = await import('../dist/server/index.js');
       const handleRequest = createRequestHandler(
         () => Promise.resolve(build as unknown as ServerBuild),
-        'development'
+        process.env.NODE_ENV === 'development' ? 'development' : 'production'
       );
 
       return await handleRequest(request, {
