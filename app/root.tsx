@@ -23,10 +23,6 @@ export async function loader({ request }: LoaderFunctionArgs) {
   const i18n = initI18n(request);
   const locale = i18n.language;
 
-  // console.log('resolvedLanguage', i18n.resolvedLanguage);
-  // console.log('language', i18n.language);
-  // console.log('isInitialized', i18n.isInitialized);
-
   return {
     locale,
   };

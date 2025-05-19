@@ -3,6 +3,13 @@ import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
+declare module '@remix-run/server-runtime' {
+  // or cloudflare, deno, etc.
+  interface Future {
+    v3_singleFetch: true;
+  }
+}
+
 // Define a simple getLoadContext function that passes through the context
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getLoadContext({ context }: { context: any }) {
