@@ -6,11 +6,15 @@ import { baseConfig, clientConfig, fallbackLng, serverConfig } from './i18n.conf
 
 export let i18n: i18nType;
 
-export const initI18n = (request: Request) => {
+const getDefaultLanguage = (request: Request) => {
   const url = new URL(request.url);
   const lng = url.searchParams.get('lng') || fallbackLng;
 
-  // console.log('i18nextServer: lng', lng);
+  return lng;
+};
+
+export const initI18n = (request: Request) => {
+  const lng = getDefaultLanguage(request);
 
   if (i18n && i18n.isInitialized) {
     i18n.changeLanguage(lng);
